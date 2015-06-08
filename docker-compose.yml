@@ -1,0 +1,25 @@
+version: "3"
+services:
+  database:
+    image: postgres
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=asdfasdf
+      - POSTGRES_USERNAME=bibliotheca
+      - POSTGRES_HOST=172.20.0.2
+  web:
+    image: droda
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rackup -p 9292 -o 0.0.0.0 "
+    volumes:
+      - .:/app
+    ports:
+      - "3001:3000"
+    depends_on:
+      - database
+    environment:
+      - POSTGRES_PASSWORD=asdfasdf
+      - POSTGRES_USERNAME=bibliotheca
+      - POSTGRES_HOST=172.20.0.2
+volumes:
+  db_data:

@@ -1,0 +1,21 @@
+.navbar-brand {
+  color: green;
+}
+//@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+/*
+    Hack to remove background from Mobile Safari.
+    Can't use it globally since it destroys checkboxes in Firefox
+*/
+html {
+  padding: 10px;
+}
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #EFEFEF;
+  color: #324047;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
