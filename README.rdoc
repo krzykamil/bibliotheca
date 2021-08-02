@@ -1,2 +1,5 @@
 App for managing my librarly, segregating books, finding where they are exactly (shelf and rack) with an aim of creating an easy to use
 yet complex and fast search engine that will update the results live (after search, no page reload, just reload of the table with results).
+
+Based on simple stack from (Roda-Sequel-Stack)[https://github.com/jeremyevans/roda-sequel-stack].
+Ruby 3.0.1
