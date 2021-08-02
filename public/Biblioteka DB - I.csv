@@ -1,0 +1,6 @@
+name,authors,genre,subcategory,note,rack,shelf,comic_book
+Folwark Zwierzęcy,George Orwell,Nowela,Satyra Polityczna,Wydanie 123,4,3,FALSE
+Władca Much,William Golding,Nowela,,Super,2,1,FALSE
+Dune,Frank Herbert,SF,,English special edition,1,2,FALSE
+Diuna,Frank Herbert,SF,,Wydanie polskie nowe,1,2,FALSE
+TestBook,"OneAuthor, AnotherAuthor",SF,Satyra Polityczna,Wydanie polskie nowe,2,5,TRUE

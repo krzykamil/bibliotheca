@@ -6,10 +6,10 @@ if dev
 end
 
 require 'rack/unreloader'
-Unreloader = Rack::Unreloader.new(subclasses: %w'Roda Sequel::Model', logger: logger, reload: dev){App}
+Unreloader = Rack::Unreloader.new(subclasses: %w'Roda Sequel::Model', logger: logger, reload: dev){Bibliotheca}
 require_relative 'models'
-Unreloader.require('app.rb'){'App'}
-run(dev ? Unreloader : App.freeze.app)
+Unreloader.require('app.rb'){'Bibliotheca'}
+run(dev ? Unreloader : Bibliotheca.freeze.app)
 
 freeze_core = false
 #freeze_core = !dev # Uncomment to enable refrigerator

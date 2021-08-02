@@ -3,7 +3,7 @@ require_relative 'models'
 require 'roda'
 require 'tilt/sass'
 
-class App < Roda
+class Bibliotheca < Roda
   opts[:check_dynamic_arity] = false
   opts[:check_arity] = :warn
 
@@ -16,7 +16,7 @@ class App < Roda
 
   plugin :content_security_policy do |csp|
     csp.default_src :none
-    csp.style_src :self, 'https://maxcdn.bootstrapcdn.com'
+    csp.style_src :self, 'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'
     csp.form_action :self
     csp.script_src :self
     csp.connect_src :self
@@ -70,9 +70,9 @@ class App < Roda
   end
 
   plugin :sessions,
-    key: '_App.session',
+    key: '_Bibliotheca.session',
     #cookie_options: {secure: ENV['RACK_ENV'] != 'test'}, # Uncomment if only allowing https:// access
-    secret: ENV.send((ENV['RACK_ENV'] == 'development' ? :[] : :delete), 'APP_SESSION_SECRET')
+    secret: ENV.send((ENV['RACK_ENV'] == 'development' ? :[] : :delete), 'BIBLIOTHECA_SESSION_SECRET')
 
   Unreloader.require('routes'){}
 

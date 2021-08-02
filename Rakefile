@@ -1,3 +1,6 @@
+require 'csv'
+require_relative 'models'
+
 # Migrate
 
 migrate = lambda do |env, version|
@@ -105,47 +108,22 @@ task "annotate" do
   Sequel::Annotate.annotate(Dir['models/*.rb'])
 end
 
-last_line = __LINE__
-# Utils
+# Data import
 
-desc "give the application an appropriate name"
-task :setup, [:name] do |t, args|
-  unless name = args[:name]
-    $stderr.puts "ERROR: Must provide a name argument: example: rake \"setup[AppName]\""
-    exit(1)
+desc "Import database data from csv"
+task :import_db_csv do
+  #Check the file name
+  table = CSV.table("public/Biblioteka DB - I.csv")
+  table[0..-1].each do |row|
+    book = Book.create(row.to_h.except(:authors))
+    # TODO get authors, find each or create him
+    row.to_h[:authors].split(',').each do |author|
+      matching_authors = Author.where(name: author)
+      if matching_authors.count == 1
+        book.add_author(matching_authors.first)
+      else
+        book.add_author(Author.create(name: author))
+      end
+    end
   end
-
-  require 'securerandom'
-  require 'fileutils'
-  lower_name = name.gsub(/([a-z\d])([A-Z])/, '\1_\2').downcase
-  upper_name = lower_name.upcase
-  random_bytes = lambda{[SecureRandom.random_bytes(64).gsub("\x00"){((rand*255).to_i+1).chr}].pack('m').inspect}
-
-  File.write('.env.rb', <<END)
-case ENV['RACK_ENV'] ||= 'development'
-when 'test'
-  ENV['#{upper_name}_SESSION_SECRET'] ||= #{random_bytes.call}.unpack('m')[0]
-  ENV['#{upper_name}_DATABASE_URL'] ||= "postgres:///#{lower_name}_test?user=#{lower_name}"
-when 'production'
-  ENV['#{upper_name}_SESSION_SECRET'] ||= #{random_bytes.call}.unpack('m')[0]
-  ENV['#{upper_name}_DATABASE_URL'] ||= "postgres:///#{lower_name}_production?user=#{lower_name}"
-else
-  ENV['#{upper_name}_SESSION_SECRET'] ||= #{random_bytes.call}.unpack('m')[0]
-  ENV['#{upper_name}_DATABASE_URL'] ||= "postgres:///#{lower_name}_development?user=#{lower_name}"
-end
-END
-
-  %w'views/layout.erb routes/prefix1.rb config.ru app.rb db.rb spec/web/spec_helper.rb'.each do |f|
-    File.write(f, File.read(f).gsub('App', name).gsub('APP', upper_name))
-  end
-
-  File.write(__FILE__, File.read(__FILE__).split("\n")[0...(last_line-2)].join("\n") << "\n")
-  File.delete('public/.gitkeep')
-  FileUtils.remove_dir('stack-spec')
-end
-
-Rake::Task["default"].clear
-desc "Run specs to make sure stack works properly"
-task :default do
-  spec.call('./stack-spec/*_spec.rb')
 end
