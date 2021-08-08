@@ -1,4 +1,31 @@
-<h1>Hello books</h1>
+<div id="main"></div>
+
+<!--<form action="/books" method="get" id="search_form">-->
+<!--  <div class="field has-addons">-->
+<!--    <div class="control">-->
+<!--      <input form="search_form" class="input" type="text" placeholder="Find a book">-->
+<!--    </div>-->
+<!--    <div class="control">-->
+<!--      <input class="button is-info" name="search_form" type="submit" form="search_form" class="button is-info">-->
+<!--        Search-->
+<!--      </input>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</form>-->
+
+<form action="/books" method="get" id="search_form">
+  <div class="field has-addons">
+    <div class="field has-addons">
+      <div class="control">
+        <input class="input" type="text" id="search" name="search" placeholer="Look for a book"><br>
+      </div>
+    </div>
+    <div class="control">
+      <input class="button is-info" type="submit" value="Search">
+    </div>
+  </div>
+</form>
+
 <table class="table is-bordered is-striped is-hoverable is-fullwidth">
   <thead>
     <tr>
@@ -14,13 +41,13 @@
   </thead>
   <tbody>
     <% @books.each do |book| %>
-      <tr class="active is-selected">
+      <tr class="">
         <td><%= book.name %></td>
         <td><%= book.genre %></td>
         <td><%= book.subcategory %></td>
         <td><%= book.shelf %></td>
         <td><%= book.rack %></td>
-        <td><%= book.comic_book %></td>
+        <td><%= book.comic_book ? 'Tak' : 'Nie' %></td>
         <td><%= book.note %></td>
         <td><%= book.authors.first.name %></td>
       </tr>

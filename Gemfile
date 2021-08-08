@@ -11,6 +11,7 @@ gem 'rack-unreloader'
 gem 'webrick'
 
 group :development do
+  gem 'ruby_jard'
   gem 'sequel-annotate'
 end
 

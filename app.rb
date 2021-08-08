@@ -2,6 +2,7 @@ require_relative 'models'
 
 require 'roda'
 require 'tilt/sass'
+require 'ruby_jard'
 
 class Bibliotheca < Roda
   opts[:check_dynamic_arity] = false

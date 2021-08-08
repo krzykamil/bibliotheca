@@ -1,6 +1,86 @@
 name,authors,genre,subcategory,note,rack,shelf,comic_book
-Folwark Zwierzęcy,George Orwell,Nowela,Satyra Polityczna,Wydanie 123,4,3,FALSE
-Władca Much,William Golding,Nowela,,Super,2,1,FALSE
-Dune,Frank Herbert,SF,,English special edition,1,2,FALSE
-Diuna,Frank Herbert,SF,,Wydanie polskie nowe,1,2,FALSE
-TestBook,"OneAuthor, AnotherAuthor",SF,Satyra Polityczna,Wydanie polskie nowe,2,5,TRUE
+Dune,Frank Herbert,SF,Cykl,English special edition,1,2,FALSE
+Diuna,Frank Herbert,SF,Cykl,Wydanie polskie nowe z duplikatem,1,2,FALSE
+Żołnierz z mgły,Gene Wolfe,Fantasy,,,1,1,FALSE
+Gra o Tron,George R. R. Martin,Fantasy,Cykl,Stare wydanie,1,1,FALSE
+Malowany Człowiek I,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
+Malowany Człowiek II,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
+Pustynna Włócznia I,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
+Pustynna Włócznia II,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
+Wojna w blasku dnia I,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
+Gaijin,Marc Olden,Thriller,,,1,1,FALSE
+Katarem i magią,Craig Shaw Gardner,Fantasy,Komedia,,1,1,FALSE
+Sakriversum,Thomas R.P. Mielke,Fantasy,,,1,1,FALSE
+Cień w południe,James Barclay,Fantasy,Cykl,Saga o krukach,1,1,FALSE
+Lilith,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,1,FALSE
+Północ przy Studni Dusz,Jack L. Chalker,SF,,,1,1,FALSE
+Czas w piekle,Jack Higgins,,,"Zniszczona, brak okładki",1,1,FALSE
+Źródła magii,Pier Anthony,Fantasy,Cykl,,1,1,FALSE
+Smok w mieczu,Michael Moorcock,Fantasy,Cykl,Wieczny Wojownik,1,1,FALSE
+The Final Empire,Brandon Sanderson,Fantasy,Cykl,Mistborn,1,1,FALSE
+Klucz do ciemności,Dave Wolvertron,SF,Cykl,Złota królowa,1,1,FALSE
+Leśne Zacisze,R.A. Salvatore,Fantasy,Cykl,Opowieści Włócznika,1,1,FALSE
+Sztylet Smoka,R.A. Salvatore,Fantasy,Cykl,Opowieści Włócznika,1,1,FALSE
+Powrót zabójcy smoka,R.A. Salvatore,Fantasy,Cykl,Opowieści Włócznika,1,1,FALSE
+The Sellswords,R.A. Salvatore,Fantasy,Opowiadania,3 opowiadania. Angielskie,1,1,FALSE
+Przebudzeni Demona,R.A. Salvatore,Fantasy,Cykl,Cykl Demona,1,1,FALSE
+Duch Demona,R.A. Salvatore,Fantasy,Cykl,Cykl Demona,1,1,FALSE
+Apostoł Demona,R.A. Salvatore,Fantasy,Cykl,Cykl Demona,1,1,FALSE
+Tysiąc Orków,R.A. Salvatore,Fantasy,Cykl,Trylogia Klingi Łowcy,1,1,FALSE
+Samotny Drow,R.A. Salvatore,Fantasy,Cykl,Trylogia Klingi Łowcy,1,1,FALSE
+Dwa miecze,R.A. Salvatore,Fantasy,Cykl,Trylogia Klingi Łowcy,1,1,FALSE
+Ojczyzna,R.A. Salvatore,Fantasy,Cykl,Trylogia Mrocznego Elfa,1,1,FALSE
+Wygnanie,R.A. Salvatore,Fantasy,Cykl,Trylogia Mrocznego Elfa,1,1,FALSE
+Kryształowy Relikt,R.A. Salvatore,Fantasy,Cykl,Legenda Drizzta,1,1,FALSE
+Strumienie Srebra,R.A. Salvatore,Fantasy,Cykl,Legenda Drizzta,1,1,FALSE
+Klejnot Halflinga,R.A. Salvatore,Fantasy,Cykl,Legenda Drizzta (duplikat),1,1,FALSE
+Kantyczka,R.A. Salvatore,Fantasy,Cykl,Pięcioksiąg Cadderlyego,1,1,FALSE
+Mroki Puszczy,R.A. Salvatore,Fantasy,Cykl,Pięcioksiąg Cadderlyego,1,1,FALSE
+Nocne Maski,R.A. Salvatore,Fantasy,Cykl,Pięcioksiąg Cadderlyego,1,1,FALSE
+Zdobyta Forteca,R.A. Salvatore,Fantasy,Cykl,Pięcioksiąg Cadderlyego,1,1,FALSE
+Klątwa Chaosu,R.A. Salvatore,Fantasy,Cykl,Pięcioksiąg Cadderlyego,1,1,FALSE
+Morze MIeczy,R.A. Salvatore,Fantasy,Cykl,Ścieżki Mroku,1,1,FALSE
+Bezgłośna Klinga,R.A. Salvatore,Fantasy,Cykl,Ścieżki Mroku,1,1,FALSE
+Grzbiet świata,R.A. Salvatore,Fantasy,Cykl,Ścieżki Mroku,1,1,FALSE
+Sługa Reliktu,R.A. Salvatore,Fantasy,Cykl,Ścieżki Mroku,1,1,FALSE
+Wrota Baldura Tron Bhaala,Drew Karpyshyn,Fantasy,,,1,1,FALSE
+Oko morskiego diabła,Mel Odom,Fantasy,Cykl,Grożba z morza,1,1,FALSE
+Wzbierająca fala,Mel Odom,Fantasy,Cykl,Grożba z morza,1,1,FALSE
+Thomas M. Reid,Powstanie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
+Richard Baker,Potępienie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
+Lisa Smedman,Zagłada,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
+Philip Athans,Unicestwienie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
+Paul S. Kemp,Zmartwychwstanie,Fantasy,Cykl,Wojna pajęczej królowej (duplikat),1,1,FALSE
+Ogrody Księżyca,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Bramy Domu Umarłych,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Wspomnienie Lodu: Cień Przeszłości,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Wspomnienie Lodu: Jasnowidz,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Dom Łańcuchów: Dawne dni,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Dom Łańcuchów: Konwergencja,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Przypływy nocy: Misterny plan,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Przypływy nocy: Siódme zamknięcie,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Łowcy kości: Pościg,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Łowcy kości: Powrót,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Wicher śmierci. Imperium,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Wicher śmierci. Ekspedycja,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Myto ogarów. Miasto,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Myto ogarów. Początek,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Pył snów. Wymarsz,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Pył snów. Pustkowia,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Okaleczony Bóg t.1 „Szklana pustynia”,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Okaleczony Bóg t.2 „Kolanse”,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
+Diuna,Frank Herbert,SF,Cykl,Najnowsze wydanie duplikat,1,2,FALSE
+Dune,Frank Herbert,SF,Cykl,"Angielska, wersja specjalna",1,2,FALSE
+Heretycy Diuny,Frank Herbert,SF,Cykl,,1,2,FALSE
+Dzieci Diun,Frank Herbert,SF,Cykl,,1,2,FALSE
+Bóg Imperator Diuny,Frank Herbert,SF,Cykl,,1,2,FALSE
+Mesajasz Diuny,Frank Herbert,SF,Cykl,Dwa różne wydania,1,2,FALSE
+Mesajasz Diuny,Frank Herbert,SF,Cykl,Dwa różne wydania,1,2,FALSE
+Zielony Mózg,Frank Herbert,SF,,,1,2,FALSE
+Oczy Heisenberga,Frank Herbert,SF,,,1,2,FALSE
+Władca Much,William Golding,Nowela,,Wstęp Stephen King,1,2,FALSE
+Czarnoksiężnik z Archipelagu,Ursula K. Le Guin,Fantasy,Cykl,Ziemiomorze 1,1,2,FALSE
+Sześć Światów Hain,Ursula K. Le Guin,SF,Cykl,Wydanie zbiorowe 6 książek,1,2,FALSE
+Tehanu,Ursula K. Le Guin,Fantasy,Cykl,Ziemiomorze 4,1,2,FALSE
+Wydziedziczeni,Ursula K. Le Guin,SF,Cykl,Zawarte również w sześć światów Hain,1,2,FALSE
+Najdalszy brzeg,Ursula K. Le Guin,Fantasy,Cykl,Ziemiomorze 3,1,2,FALSE
