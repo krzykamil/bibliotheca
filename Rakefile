@@ -1,5 +1,6 @@
 require 'csv'
 require_relative 'models'
+require 'ruby_jard'
 
 # Migrate
 
@@ -116,13 +117,12 @@ task :import_db_csv do
   table = CSV.table("public/Biblioteka DB - I.csv")
   table[0..-1].each do |row|
     book = Book.create(row.to_h.except(:authors))
-    # TODO get authors, find each or create him
     row.to_h[:authors].split(',').each do |author|
       matching_authors = Author.where(name: author)
       if matching_authors.count == 1
         book.add_author(matching_authors.first)
       else
-        book.add_author(Author.create(name: author))
+        book.add_author(Author.create(name: author.strip))
       end
     end
   end
