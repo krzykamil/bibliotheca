@@ -50,7 +50,6 @@ GEM
     sequel_pg (1.14.0)
       pg (>= 0.18.0, != 1.2.0)
       sequel (>= 4.38.0)
-    tilt (2.0.10)
     tty-screen (0.8.1)
     warning (1.2.0)
     webrick (1.7.0)
@@ -74,7 +73,6 @@ DEPENDENCIES
   sequel (>= 5)
   sequel-annotate
   sequel_pg (>= 1.8)
-  tilt (>= 2.0.9)
   warning
   webrick
 

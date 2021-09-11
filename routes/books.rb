@@ -7,11 +7,12 @@ class Bibliotheca
       r.get do
         #TODO add filters for attributes
 
-        @books = Book.where(Sequel.lit('books.name ILIKE ?', "%#{request.params["search"]}%")).eager_graph(:authors)
-        @genres = @books.map(:genre).uniq.compact
-        @books = @books.all
-        @genres_size = @genres.count
-        view("index")
+        # uncomment when done wih elm testing
+        # @books = Book.where(Sequel.lit('books.name ILIKE ? AND books.genre IN (?)', "%#{request.params["search"]}%", "test")).eager_graph(:authors).all
+        # @genres = @books.map(&:genre).uniq.compact
+        # @genres_size = @genres.count
+        @fakebooks = [OpenStruct.new(description: "test", completed: true, editing: false, id: "1")]
+        render("index")
       end
     end
   end

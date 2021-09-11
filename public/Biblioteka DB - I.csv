@@ -1,7 +1,7 @@
 name,authors,genre,subcategory,note,rack,shelf,comic_book
 Dune,Frank Herbert,SF,Cykl,English special edition,1,2,FALSE
 Diuna,Frank Herbert,SF,Cykl,Wydanie polskie nowe z duplikatem,1,2,FALSE
-Żołnierz z mgły,Gene Wolfe,Fantasy,,,1,1,FALSE
+Żołnierz z mgły,Gene Wolfe,Fantasy,,,1,5,FALSE
 Gra o Tron,George R. R. Martin,Fantasy,Cykl,Stare wydanie,1,1,FALSE
 Malowany Człowiek I,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
 Malowany Człowiek II,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
@@ -11,12 +11,12 @@ Wojna w blasku dnia I,Peter V. Brett,Fantasy,Cykl,Cykl demoniczny,1,1,FALSE
 Gaijin,Marc Olden,Thriller,,,1,1,FALSE
 Katarem i magią,Craig Shaw Gardner,Fantasy,Komedia,,1,1,FALSE
 Sakriversum,Thomas R.P. Mielke,Fantasy,,,1,1,FALSE
-Cień w południe,James Barclay,Fantasy,Cykl,Saga o krukach,1,1,FALSE
-Lilith,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,1,FALSE
-Północ przy Studni Dusz,Jack L. Chalker,SF,,,1,1,FALSE
+Cień w południe,James Barclay,Fantasy,Cykl,Saga o krukach,1,7,FALSE
+Lilith,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,4,FALSE
+Północ przy Studni Dusz,Jack L. Chalker,SF,,,1,4,FALSE
 Czas w piekle,Jack Higgins,,,"Zniszczona, brak okładki",1,1,FALSE
 Źródła magii,Pier Anthony,Fantasy,Cykl,,1,1,FALSE
-Smok w mieczu,Michael Moorcock,Fantasy,Cykl,Wieczny Wojownik,1,1,FALSE
+Smok w mieczu,Michael Moorcock,Fantasy,Cykl,Wieczny Wojownik z duplikatem,1,5,FALSE
 The Final Empire,Brandon Sanderson,Fantasy,Cykl,Mistborn,1,1,FALSE
 Klucz do ciemności,Dave Wolvertron,SF,Cykl,Złota królowa,1,1,FALSE
 Leśne Zacisze,R.A. Salvatore,Fantasy,Cykl,Opowieści Włócznika,1,1,FALSE
@@ -50,7 +50,7 @@ Thomas M. Reid,Powstanie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
 Richard Baker,Potępienie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
 Lisa Smedman,Zagłada,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
 Philip Athans,Unicestwienie,Fantasy,Cykl,Wojna pajęczej królowej,1,1,FALSE
-Paul S. Kemp,Zmartwychwstanie,Fantasy,Cykl,Wojna pajęczej królowej (duplikat),1,1,FALSE
+Zmartwychwstanie,Paul S. Kemp,Fantasy,Cykl,Wojna pajęczej królowej (duplikat),1,1,FALSE
 Ogrody Księżyca,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
 Bramy Domu Umarłych,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
 Wspomnienie Lodu: Cień Przeszłości,Steven Erikson,Fantasy,Cykl,Malazańska Księga Poległych,1,2,FALSE
@@ -144,7 +144,7 @@ Zakon Krańca Świata I,Maja Lidia Kossakowska,Urban Fantasy,Cykl,,1,4,FALSE
 Głos Boga,Jacek Sobota,Fantasy,,,1,4,FALSE
 Oczy Smoka,Stephen King,Fantasy,,,1,4,FALSE
 Modyfikowany Węgiel,Richard Morgan,SF/Cyberpunk,,,1,4,FALSE
-Hannibal,Thomas Harris,Horror,,Angielskie,1,4,FALSE
+Hannibal,Thomas Harris,Horror,,Angielskie,2,2,FALSE
 Przywoływacz Dusz,Gail Z. Martin,Fantasy,Cykl,Kroniki Czarnoksiężnika,1,4,FALSE
 Czerwień na Czerwieni,Wiera Kamsza,Fantasy,,,1,4,FALSE
 Szaleństwo Aniołów,Kate Griffin,Urban Fantasy,Cykl,Kroniki Aniołów,1,4,FALSE
@@ -154,15 +154,15 @@ Hyperion I,Dan Simmons,SF,Cykl,,1,4,FALSE
 Hyperion II,Dan Simmons,SF,Cykl,Hyperion,1,4,FALSE
 Endymion,Dan Simmons,SF,Cykl,Hyperion,1,4,FALSE
 Neuromancer,William Gibson,SF/Cyberpunk,,,1,4,FALSE
-Na Skrzydłach Orłów,Ken Follett,Sensacja,,,1,4,FALSE
+Na Skrzydłach Orłów,Ken Follett,Sensacja,,,1,3,FALSE
 Pole Bitewna: Ziemia II,L. Ron Hubbard,SF,Cykl,Pole Bitewna: Ziemia,1,4,FALSE
 Pole Bitewna: Ziemia II,L. Ron Hubbard,SF,Cykl,Pole Bitewna: Ziemia,1,4,FALSE
 Atlandyta Odnaleziona,Clive Cussler,Sensacja,,,1,4,FALSE
 Ósmy Dzień,Glover Wright,Sensacja,,,1,4,FALSE
 Morski Myśliwiec,James Cobb,Sensacja,,,1,4,FALSE
 Śmiertelny Wróg,Ross MacDonald,Sensacja,,,1,4,FALSE
-Klatka Orłów,James Follett,Sensacja,,,1,4,FALSE
-Klucz Do Rebeki,Ken Follett,Sensacja,,Z duplikatem,1,4,FALSE
+Klatka Orłów,James Follett,Sensacja,,,1,6,FALSE
+Klucz Do Rebeki,Ken Follett,Sensacja,,Z duplikatem,1,3,FALSE
 Myszołap I,Joan D. Vince,SF,Cykl,,1,4,FALSE
 Myszołap II,Joan D. Vince,SF,Cykl,,1,4,FALSE
 Smoczy Rycerz II,Gordon R. Dickson,Fantasy,Cykl,,1,4,FALSE
@@ -170,7 +170,7 @@ Smok Na Granicy,Gordon R. Dickson,Fantasy,Cykl,,1,4,FALSE
 Smoczy Rycerz I,Gordon R. Dickson,Fantasy,Cykl,,1,4,FALSE
 Encyklopedia Ostateczna I,Gordon R. Dickson,SF,Cykl,Saga O Dorsajach,1,4,FALSE
 "Żołnierzu, nie pytaj",Gordon R. Dickson,,,,1,4,FALSE
-Płycizny Nocy,Eric Lustbader,Fantasy,,,1,4,FALSE
+Płycizny Nocy,Eric Lustbader,Fantasy,,,1,3,FALSE
 Wrota Piekieł I,"David Weber, Linda Evans",Fantasy,Cykl,Wrota Piekieł,1,5,FALSE
 Wrota Piekieł Ii,"David Weber, Linda Evans",Fantasy,Cykl,Wrota Piekieł,1,5,FALSE
 Zaprzysiężony Bogu Wojny,David Weber,Fantasy,,,1,5,FALSE
@@ -195,12 +195,12 @@ Wilczek,Sterling North,Młodzieżowa,,,1,5,FALSE
 Z psychopatologii życia seksualnego,Antoni Kępiński,Naukowa,,,1,5,FALSE
 Los Utracony,Imre Kertesz,Literatura Piękna,,Nagroda Nobla 2002,1,5,FALSE
 Dzień Dobry za dwa złote,Various Artists,Zbiór Opowiadań,Zbiór Opowiadań,Wybór Jerzy Wójcik,1,5,FALSE
-Zgodnie Z planem,Lee Child,Sensacja,Cykl,Jack Reacher,1,5,FALSE
-Poszukiwany,Lee Child,Sensacja,Cykl,Jack Reacher,1,5,FALSE
-Adres Nieznany,Lee Child,Sensacja,Cykl,Jack Reacher,1,5,FALSE
-Cyfrowa Twierdza,Dan Brown,Sensacja,,,1,5,FALSE
-Zwodniczy punkt,Dan Brown,Sensacja,,Z duplikatem,1,5,FALSE
-Lodowa Pułapka,James Rollins,Sensacja,,,1,5,FALSE
+Zgodnie Z planem,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Poszukiwany,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Adres Nieznany,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Cyfrowa Twierdza,Dan Brown,Sensacja,,,2,2,FALSE
+Zwodniczy punkt,Dan Brown,Sensacja,,Z duplikatem,2,2,FALSE
+Lodowa Pułapka,James Rollins,Sensacja,,,2,2,FALSE
 Wojna Trappa,Brian Callison,Sensacja,,,1,5,FALSE
 Oblicza Wód,Robert Silverberg,SF,,,1,5,FALSE
 Droga Żelazna,Aharon Appelfeld,Literatura Piękna,,,1,5,FALSE
@@ -212,4 +212,523 @@ Idee Logiczne Romana Suszki,Uniwersytet Warszawki,Naukowa - Filozofia,,,1,5,FALS
 Dragon Wing I,"Margaret Weis, Tracy Hickman",Fantasy,Cykl,Angielska. The Death Gate Cycle,1,5,FALSE
 O Chinach,Henry Kissinger,Naukowa - Relpolitikz,,,1,5,FALSE
 Technika Montażu FIlmowego,"Karel Reisz, Gavin Millar",Naukowa - Film,,,1,5,FALSE
-Leksykon Filmów Postapokaliptycznych I,Adam Horowski,Leksykon/Encyklopedia,,,,,
+Leksykon Filmów Postapokaliptycznych I,Adam Horowski,Leksykon/Encyklopedia,,,1,5,FALSE
+Komisarz Hard i Błękitni Ludzie,Paweł Bagriak,Fantastyka,,,1,4,FALSE
+Torus,James Follett,Thriller/Sensacja,,Z duplikatem,1,6,FALSE
+Lód,James Follett,Thriller/Sensacja,,,1,6,FALSE
+Śmierć Pilota,David Zindell,SF,Cykl,Nigdylandia,1,6,FALSE
+Nieśmiertelni,Henry Kuttner,SF,,,1,6,FALSE
+Yankes na dworze króla Artura,Mark Twain,Fantasy,,,1,6,FALSE
+Wirus Mroku,Wasilij Gołowaczew,SF,Cykl,Obrońcy Wachlarza,1,6,FALSE
+Szlak Orła,Willbur Smith,Wojenny,,,1,6,FALSE
+Pętla Wstecznego Czasu,Siergiej Sniegow,SF,Cykl,Ludzie Jak Bogowie,1,6,FALSE
+Dai-Sho,Marc Olden,Sensacja,,,1,6,FALSE
+Karawana do Vaccares,Alistair MacLean,Sensacja,,,2,4,FALSE
+Partyzanci,Alistair MacLean,Sensacja,,,2,4,FALSE
+Limes Inferior,Janusz A. Zajdel,SF,,,1,6,FALSE
+Historia Pewnego Powrotu,Dieter Noll,Przygodowe,Cykl,Przygody Wernera Holta 2,1,6,FALSE
+Janasz,James Herbert,Horror,,,1,6,FALSE
+Papierowe Pieniądze,Ken Follett,Sensacja,,,1,3,FALSE
+Korupcja,Andrzej Kuśniewicz,Sensacja,,,1,6,FALSE
+Trójka,Ken Follett,Sensacja,,,1,3,FALSE
+Talizman,Robert Faulcon,Horror,Cykl,Nocny łowca,1,7,FALSE
+Nocne Dumania i inne utwory,Wailij Szukszyn,Literatura Piękna,Zbiór Opowiadań,,1,6,FALSE
+Życiodajny Impuls Chuligaństwa,Karol Modzelewski,Literatura Piękna,,,1,6,FALSE
+Gombrowicz w szkole czyli ferdydurkizm,Stanisław Bortnowski,Naukowa - Literatura,,,1,6,FALSE
+Awicenna,Abu Ali Ibn Sina,Naukowa - Filozofia Medycyna,,,1,6,FALSE
+Na szczytach rozpaczy,Emil Cioran,Literatura Piękna,,,1,6,FALSE
+Sinobrody,Kurt Vonnegut,Literatura Piękna,,,1,6,FALSE
+Sto Dwadzieścia Dni Sodomy,Markiz de Sade,Biografia,,,1,5,FALSE
+Polski Kodeks Honorowy,Władysław Bodziewicz,Naukowa,,,1,6,FALSE
+Wojna Jak Ją Poznałem,George S. Patton,Historyczna,,,1,6,FALSE
+Odyseja,Homer,Literatura Piękna,,,1,6,FALSE
+Episteme Z Problemó Współczesnej Teorii Wiedzy,Uniwersytet Warszawki,Naukowa - Filozofia,,,1,6,FALSE
+Antypodręcznik Filozofii,Michel Onfray,Naukowa - Filozofia,,,1,6,FALSE
+O postępach metafizyki,Immanuel Kant,Naukowa - metafizyka,,,1,6,FALSE
+Rok 93,Wiktor Hugo,Literatura Piękna,,,1,6,FALSE
+Wieczór w bizancjum,Irwin Shaw,Literatura Piękna,,,1,6,FALSE
+500 Zagadek z techniki na co dzień,Zbigniew Płochocki,Naukowa - Technika,,,1,6,FALSE
+Logiczne podstawy gramatyk kategorialnych Ajdukiewicza-Lambeka,Wojciech Buszkowski,Naukowa - Logika,,,1,6,FALSE
+Przepychanka,Jan Himilsbach,Literatura Piękna,,,1,6,FALSE
+Spotkanie w Telgte,Gunter Grass,Literatura Piękna,,,1,6,FALSE
+Poradnik Motocyklisty,Krzysztof Brun,Naukowa - Motoryzacja,,,1,6,FALSE
+Mały Poradnik Techniczny dla potrzeb domowych,Piotr Piotrowski,Naukowa - Technika,,,1,6,FALSE
+5 Językó MIłości,Gray Chapman,Poradnik,,,1,6,FALSE
+Greccy Filozofowie jako teolodzy,Adam Drozdek,Naukowa - Filozofia,,,1,6,FALSE
+Tao kubusia puchatka,Benjamin Hoff,Naukowa - Filozofia,,,1,6,FALSE
+Pasej Zygmunta Freuda,Erich Fromm,Naukowa - Filozofia,,,1,6,FALSE
+O strukturze społecznej,Stanisłąw Ossowski,Naukowa - Socjologia,,,1,6,FALSE
+Fromm,Mirosław Chałubiński,Naukowa - Filozofia,,,1,6,FALSE
+Rozmowy Z Diabłem,Leszek Kołakowski,Literatura Piękna,,,1,6,FALSE
+Historia Pewnej młodości,Dieter Noll,Przygodowe,Cykl,Przygody Wernera Holta 2,1,6,FALSE
+Czwarty Protokół,Frederick Forsyth,Sensacja,,,1,6,FALSE
+Konwój w nieznane,Jan Mrozowicki,Sensacja,,,1,6,FALSE
+Autostopem przez galaktykę,Douglas Adams,SF,Cykl,Autostopem przez galaktykę,1,6,FALSE
+Przełęcz złamanego serca,Alistair MacLean,Western,,,2,4,FALSE
+Kredowe Koło,Leszek Kopeć,Fantasy,,,1,6,FALSE
+Inkarnacja,Leonard Zagórski,Thriller,,,1,6,FALSE
+Success with english the penguin course,Geoffrey Broughton,Nauka języka,,,1,6,FALSE
+Zielona Dziewczyna,Klementyna Sołonowicz-Olbrychska,Dla dzieci,,,1,6,FALSE
+Maska Kirke,Henry Kuttner,SF,,,1,6,FALSE
+Stalowy Szczur Pragnie Ciebie,Harry Harrison,SF,Cykl,Stalowy Szczur,5,2,FALSE
+Kraina Mroku,Henry Kuttner,SF,,,1,6,FALSE
+Ujeździć Pegaza,Anne McCaffrey,SF,Cykl,Cykl Pegaza,1,6,FALSE
+Mastodonia,Clifford D. Simak,SF,,,1,6,FALSE
+Rachunek Krwi,David Morrell,Thriller,,,1,6,FALSE
+Śpiąca Czarodziejka,Michael Moorcock,Fantasy,,,1,5,FALSE
+Odgłos Gromu,Willbur Smith,Sensacja,Cykl,Saga Courtneyów,1,6,FALSE
+Randka w Ciemno,Jerzy Kosiński,Thriller,,,1,6,FALSE
+Włócznik,Brian Callison,Sensacja,,,1,6,FALSE
+Siła Strachu,Alistair MacLean,Sensacja,,,2,4,FALSE
+Śmierć Higieniczna,Various Artists,Fantasy,Zbiór Obowiadań,,1,6,FALSE
+Conan Najemnik,Robert E. Howard,Fantasy,Cykl,Conan Barbarzyńca,1,4,FALSE
+Bez słów,Antoni Chodorowski,Literatura Piękna,,,1,6,FALSE
+Czysta Robota,Raymond Chandler,Literatura Piękna,Zbiór Obowiadań,,1,6,FALSE
+Dżinn,Graham Masterton,Horror,,,1,6,FALSE
+Łowca Śmierci,Ian Watson,SF,,,1,6,FALSE
+Drugie wcielenie MInehawy,Josef Nesvadba,SF,,,1,6,FALSE
+Latająca Gospoda,Gilbert Keith Chesterton,Literatura Piękna,,,1,6,FALSE
+Z nieba i zz ognia z nieba i z mgły,Andrzej Krzepkowski,Sensacja,,,1,6,FALSE
+Troubled Sleep,Jean-Paul Sartre,Literatura Piękna,,Angielskie,1,6,FALSE
+Historia o przyjaźni,Albert Paris Gutersloh,Literatura Piękna,,,1,6,FALSE
+Zew Krwi,Jack London,Literatura Piękna,,,1,6,FALSE
+Dociekania filozoficzne,Ludwig Wittgenstein,Naukowa - Filozofia,,,1,6,FALSE
+Łowca,Lars Kepler,Kryminał,Cykl,Joona Linna,1,6,FALSE
+Logika Norm,Jerzy Kalinowski,Naukowa - Logika,,,1,6,FALSE
+Grek Zorba,Nikos Kazantzakis,Literatura Piękna,,,1,6,FALSE
+Fazenda Sao Bernardo,Graciliano Ramos,Literatura Piękna,,,1,6,FALSE
+Prawda i Metoda,Hans-Georg Gadamer,Naukowa - Filozofia,,,1,6,FALSE
+Niemiecki a1-b1,Renata Mac,Nauka Języka,,,1,6,FALSE
+Takie jak ania,Lucy Maud Montgomery,Literatura Piękna,,,1,6,FALSE
+Strefa Cyrkowa,Jachym Topol,Literatura Piękna,,,1,6,FALSE
+Świadomość Literatury,Hernyk Markiewicz,Naukowa - Literatura,,,1,6,FALSE
+Dziewczyna Spoza Szlaku,James Oliver Curwood,Przygodowe,,,1,6,FALSE
+Miecz Rodu Bedwyrów,R.A. Salvatore,Fantasy,Cykl,Karmazynowy Cień,1,1,FALSE
+Igła,Ken Follett,Sensacja,,,1,3,FALSE
+Kawaler Mieczy,Michael Moorcock,Fantasy,,,1,5,FALSE
+Lochy Watykanu,Andre Gide,Powieść historyczna,,,1,7,FALSE
+Conan Zdobywca,Robert E. Howard,Fantasy,Cykl,Conan Barbarzyńca,1,4,FALSE
+Świt Rocannona,Ursula K. Le Guin,SF,Cykl,Trylogia Hain,1,2,FALSE
+Krótka Piłka,Harlan Coben,Sensacja,,,1,3,FALSE
+Obiecaj Mi,Harlan Coben,Sensacja,,,1,3,FALSE
+Ostatni Szczegół,Harlan Coben,Sensacja,,,1,3,FALSE
+Feniks z obsydianu,Michael Moorcock,Fantasy,Cykl,Wieczny Wojownik,1,5,FALSE
+Planeta Wygnania,Ursula K. Le Guin,SF,Cykl,Ekunema,1,2,FALSE
+Ubiczowana Gwiazda,Frank Herbert,SF,,,1,2,FALSE
+Wywiad z wampirem,Anne Rice,Horror,Cykl,Wywiad z wampirem,1,5,FALSE
+Wampir Lestat,Anne Rice,Horror,Cykl,Wywiad z wampirem,1,5,FALSE
+Czas Wodnika,Mirosław P. Jabłoński,SF,,,1,5,FALSE
+Wiosna Helikonii,Brian W. Aldiss,SF,,Z duplikatem,1,5,FALSE
+Pielgrzymi Czasu,Wolfgang Jeschke,SF,,,1,5,FALSE
+Dzień Drogi do Meorii,Marek Oramus,SF,,,1,5,FALSE
+Mord Założycielski,Edmund Wnuk-Lipiński,SF,,,1,5,FALSE
+Daleka Tęcza,"Arkadij Natanowicz Strugacki, Borys Strugacki",SF,,,2,2,FALSE
+Slan,Alfred Elton van Vogt,SF,,,1,5,FALSE
+Krypta Bestii,Alfred Elton van Vogt,SF,,,1,5,FALSE
+Dziesiąte podejście,James Murdoch MacGregor,SF,Zbiór opowiadań,,1,5,FALSE
+The Day of the Jackal,Frederick Forsyth,Sensacja,,Dwie powieści w jednej książce,1,7,FALSE
+The Dogs of War,Frederick Forsyth,Sensacja,,Dwie powieści w jednej książce,1,7,FALSE
+Podwodny Drapieżca,Charles D. Taylor,Sensacja,,,1,7,FALSE
+Morderstwo Manipulowane,Hans Hellmut,Thriller,,,1,7,FALSE
+Naga Twarz,Sidney Sheldon,Sensacja,,,1,7,FALSE
+Fala Uderzeniowa,Colin Forbes,Kryminał,,,1,7,FALSE
+Zdrada Lewintera,Robert Littell,Sensacja,,,1,7,FALSE
+Godzina Zero,Joseph Finder,Sensacja,,,1,7,FALSE
+Planeta Mamucia,Edmund Piteryk,Literatura Piękna,Zbiór opowiadań,,1,7,FALSE
+Mózg,Robin Cook,Thriller,,,1,7,FALSE
+Tajemnice weź do grobu,James Hadley Chase,Kryminał,,,1,7,FALSE
+List Vivero,Desmond Bagley,Wojenny,,,1,6,FALSE
+Złota Przeprawa,Anthony Price,Sensacja,,,1,7,FALSE
+Północny SAR,Gerry Carroll,Wojenny,,,1,7,FALSE
+Rain Maker,John Grisham,Thriller,,,1,7,FALSE
+Fałszerz,Frederick Forsyth,Thriller,,,1,7,FALSE
+Wurt,Jeff Noon,SF/Postapo,,,1,7,FALSE
+W Poszukiwaniu Słońca,Colin Kapp,SF,Cykl,Cageworld,1,7,FALSE
+Hiob,Robert A. Heinlein,SF,,,1,7,FALSE
+Gwiezdny Przypływ,David Brin,SF,,,1,7,FALSE
+Wybranka Kusziela,Jacqueline Carey,Fantasy,Cykl,Kusziel,1,7,FALSE
+Pułapka,Desmond Bagley,Sensacja,,,1,6,FALSE
+Piętno Czasu,B. M. Gill,Kryminał,,,1,7,FALSE
+Odwet,Desmond Bagley,Sensacja,,,1,6,FALSE
+Przebudzenie Krakena,John Wyndham,SF,,z duplikatem,1,7,FALSE
+Wojownik Autostrady 1,Joe Dever,Gra książka,,,1,7,FALSE
+Kamień Rozstania,Tad Williams,Fantasy,Cykl,"Pamięć, Smutek i Cierń",1,7,FALSE
+Sfery,Piers Anthony,SF,,,2,5,FALSE
+Śmierć Trawy,John Christopherson,SF/Postapo,,,1,7,FALSE
+Zabójca Umarłych,Tanith Lee,Fantasy,,,1,7,FALSE
+Milczenie Bogów,Ryugo Akase,Fantasy,,z duplikatem,1,7,FALSE
+Smoczy Pakt,Iwona Surmik,Fantasy,Cykl,Dylogia Smoka,1,7,FALSE
+Bractwo Kamienia,David Morrell,Fantasy,Cykl,Trylogia Bractwa,1,7,FALSE
+Chłopiec i jego czołg,Leo Frankowski,SF,,,1,7,FALSE
+Powstanie,"David Weber, Steve White",SF,Cykl,Starfire,1,5,FALSE
+Wieczność,Greg Bear,SF,,,1,7,FALSE
+Wspaniała Gwiezdna Rzeka,Gregory Benford,SF,Cykl,Centrum Galaktyki,1,7,FALSE
+Syndykat,Cyril M. Kornbluth,SF,,,1,7,FALSE
+Władcy Podziemi,Brian Lumley,Fantasy,,,1,7,FALSE
+Cień anioła śmierci,Karl E. Wagner,Fantasy,Cykl,Kane,1,7,FALSE
+Pogromca Zwierząt,James Fenimore Cooper,Western,Cykl,Pięcioksiąg Przygód Sokolego Oka,1,7,FALSE
+Azazel,Boris Akunin,Kryminał,,,1,7,FALSE
+Mowa Ciała,Philippe Turchet,Poradnik,,,1,7,FALSE
+Rośliny Lecznicze,Frantisek Stary,Poradnik,,,1,7,FALSE
+Dobry Żołnierz,Ford Madox Ford,Literatura Piękna,,,1,7,FALSE
+Faust cz. I,Johann W. Goethe,Literatura Piękna,,,1,7,FALSE
+Reduta od wizną,"Franciszek Bernaś, Julita Mikulska-Bernaś",Historyczna,,,1,7,FALSE
+Spuścizna,Isaac Bashevis Singer,Literatura Piękna,,,1,7,FALSE
+Rzym,Przemysław Burchard,Historyczna,,,2,1,FALSE
+Zaginione Złoto Rzymu,Daniel Costa,Historyczna,,,2,1,FALSE
+Wyprawa,J. R. R. Tolkien,Fantasy,Cykl,Władca Pierścieni,2,1,FALSE
+Dwie Wieże,J. R. R. Tolkien,Fantasy,Cykl,Władca Pierścieni,2,1,FALSE
+Powrót Króla,J. R. R. Tolkien,Fantasy,Cykl,Władca Pierścieni,2,1,FALSE
+Atlas Śródziemia,J. R. R. Tolkien,Fantasy,Atlas,,2,1,FALSE
+Silmarillion,J. R. R. Tolkien,Fantasy,,,2,1,FALSE
+Dzieci Hurina,J. R. R. Tolkien,Fantasy,Zbiór opowiadań,,2,1,FALSE
+Niedokończone Opowieści,J. R. R. Tolkien,Fantasy,Zbiór opowiadań,,2,1,FALSE
+Chwała Rzymu,Anthony Everitt,Historyczna,,,2,1,FALSE
+Terroryści znad tybru,Stanisław Stabryła,Historyczna,,,2,1,FALSE
+Starożytny rzym od romulusa do justyniana,Thomas R. Martin,Historyczna,,,2,1,FALSE
+SPQR,Mary Beard,Historyczna,,,2,1,FALSE
+Królowa Lata,Jaon D. Vinge,SF,,,1,7,FALSE
+Pan Potwór,Dan Wells,Horror,Cykl,John Cleaver,1,7,FALSE
+Wektor Pierwszy,R.A. Salvatore,SF,,Star Wars,1,7,FALSE
+Władcy Samotności,"Marvin Kane, Parke Godwin",SF,,,1,7,FALSE
+Dziecko Rzeki,Paul J. McAuley,SF,,,1,7,FALSE
+Bezcielny Jack,Julian May,SF,Cykl,Trylogia Galaktyczna,1,7,FALSE
+W pogoni za porankiem,Michael S. Rohan,SF,,,1,7,FALSE
+Piętaszek,Robert A. Heinein,SF,,,1,7,FALSE
+Kanon Barbarzyńców,Various Artists,Fantasy,Zbiór opowiadań,,1,7,FALSE
+Koncert Nieskończoności,Greg Bear,Fantasy,,,1,7,FALSE
+Bohaterowie Umierają,Matthew Woodring Stover,Fantasy,,,1,7,FALSE
+Bazil Złamany Ogon,Christopher Rowley,Fantasy,,,1,7,FALSE
+W obliczu Śmierci,Sri Srimad,Fantasy,Zbiór opowiadań,,1,7,FALSE
+Tam będą smoki,John Ringo,Fantasy,,,1,7,FALSE
+Krąg Nienawiści,Keith R. A. DeDandido,Fantasy,,Warcraft,2,1,FALSE
+Dzień Smoka,Richard A. Knaak,Fantasy,,Warcraft,2,1,FALSE
+Ostatnbi Strażnik,Jeff Grubb,Fantasy,,Warcraft,2,1,FALSE
+Rozbicie,Richard A. Knaak,Fantasy,Cykl,Warcraft - wojna starożytnych,2,1,FALSE
+Dusza Demona,Richard A. Knaak,Fantasy,Cykl,Warcraft - wojna starożytnych,2,1,FALSE
+Studnia Wieczności,Richard A. Knaak,Fantasy,Cykl,Warcraft - wojna starożytnych,2,1,FALSE
+Pajęczy Księżyc,Richard A. Knaak,Fantasy,,Diablo,2,1,FALSE
+Ukryty Świat,Richard A. Knaak,Fantasy,Cykl,Smocze Królestwo,2,1,FALSE
+Czarna Droga,Mel Odom,Fantasy,,Diablo,2,1,FALSE
+Pradawna Krew,Robert Earl,Fantasy,,Warhammer,2,1,FALSE
+Pałac Władcy Plag,C. L. Werner,Fantasy,,Warhammer,2,1,FALSE
+W cieniu xel nagi,Gabriel Mesta,SF,,Starcraft,2,1,FALSE
+Nim zapadnie Ciemność,Tracy Hickman,SF,,Starcraft,2,1,FALSE
+Inne Światy,Various Artists,Fantasy,Zbiór opowiadań,,2,1,FALSE
+Ostatni Smok,Charles Edward Pogue,Fantasy,,,2,1,FALSE
+Miasto w morzu i inne,Edgar Allan Poe,Poezja,,,2,1,FALSE
+Zgroza w dunwich i inne,H. P. Lovecraft,Horror,Zbiór opowiadań,,2,1,FALSE
+Dai-San,Eric Van Lustbader,Fantasy,,,1,3,FALSE
+Opalowy Księżyc,Eric Van Lustbader,Fantasy,,,1,3,FALSE
+Władcy Siódmego Roju,Dave Wolvertron,SF,Cykl,Złota królowa - z duplikatem,1,1,FALSE
+Królestwo Słońca I,Brian Damato,Fantastyka,Cykl,Królestwo Słońca,2,1,FALSE
+Królestwo Słońca II,Brian Damato,Fantastyka,Cykl,Królestwo Słońca,2,1,FALSE
+Ruiny Gorlanu,John Flanagan,Fantasy,Cykl,Zwiadowcy,2,1,FALSE
+Płonący Most,John Flanagan,Fantasy,Cykl,Zwiadowcy,2,1,FALSE
+Ziemia Skuta Lodem,John Flanagan,Fantasy,Cykl,Zwiadowcy,2,1,FALSE
+Bitwa o Skandię,John Flanagan,Fantasy,Cykl,Zwiadowcy,2,1,FALSE
+Czarnoksiężnik z Północy,John Flanagan,Fantasy,Cykl,Zwiadowcy,2,1,FALSE
+Córka Owczarza,Elizabeth Moon,Fantasy,Cykl,Czyny Paksenarrion,1,7,FALSE
+Magia Krynny,"Margaret Weis, Tracy Hickman",Fantasy,Cykl,Dragonlance - Opowieści,1,7,FALSE
+Kagonesti,Douglas Niles,Fantasy,Cykl,Dragonlance - Zaginione Opowieści,1,7,FALSE
+Nihal Z krainy Wiatru,Licia Trosi,Fantasy,Cykl,Kroniki Świata Wynurzonego,2,1,FALSE
+Misja Sennara,Licia Trosi,Fantasy,Cykl,Kroniki Świata Wynurzonego,2,1,FALSE
+Talizman Mocy,Licia Trosi,Fantasy,Cykl,Kroniki Świata Wynurzonego,2,1,FALSE
+Twarz w otchłani,Abraham Merritt,Fantasy,,,1,7,FALSE
+Na równowarzni,Desmond Bagley,Sensacja,,,1,6,FALSE
+Złoty Wiek,John Varley ,SF,,,2,1,FALSE
+Upadek Władców Niebios,John Brosnan,SF,,,2,1,FALSE
+Zamknięty świat,James Gunn,SF,,,2,1,FALSE
+Taktyka Błędy,Gordon R. Dickson,SF,,,1,4,FALSE
+Wojna o Dąb,Emma Bull,Fantastyka,,,2,1,FALSE
+Warswy Wszechświata,Terry Pratchett,Fantasy,,,2,1,FALSE
+Kapelusz Pełen Nieba,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Zimistrz,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Zadziwiający Maurycy i jego uczone szczury,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Muzyka Duszy,Terry Pratchett,Fantasy,,Świat Dysku - z duplikatem,2,1,FALSE
+Złodziej Czasu,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Wiedźmikołaj,Terry Pratchett,Fantasy,,Świat Dysku - z duplikatem,2,1,FALSE
+Łups!,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Kosiarz,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Mort,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Wolni Ciutludzie,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Humor i Mądrość świata dysku,Terry Pratchett,Fantasy,,Świat Dysku,2,1,FALSE
+Dziedzictwo Hasturów,Marion Zimmer Bradley,Fantasy,Cykl,Darkover,2,1,FALSE
+Wyganie Sharry,Marion Zimmer Bradley,Fantasy,Cykl,Darkover,2,1,FALSE
+Sokolniczka,Marion Zimmer Bradley,Fantasy,Cykl,Darkover,2,1,FALSE
+Harfista na wietrze,Patricia A. McKillip,Fantasy,Cykl,Mistrz Zagadek,2,2,FALSE
+Dziedziczka morza i ognia,Patricia A. McKillip,Fantasy,Cykl,Mistrz Zagadek,2,2,FALSE
+Mistrz Zagadek z Hed,Patricia A. McKillip,Fantasy,Cykl,Mistrz Zagadek,2,2,FALSE
+Abhhorsen,Garth Nix,Fantasy,Cykl,Saga Sabriel,2,2,FALSE
+Lirael,Garth Nix,Fantasy,Cykl,Saga Sabriel,2,2,FALSE
+Sabriel,Garth Nix,Fantasy,Cykl,Saga Sabriel,2,2,FALSE
+Czaropis I,Blake Charlton,Fantasy,Cykl,Czaropis,2,2,FALSE
+Czaropis II,Blake Charlton,Fantasy,Cykl,Czaropis,2,2,FALSE
+Jad Lorda Foula,Stephen R. Donaldson,Fantasy,Cykl,Kraina,2,2,FALSE
+Wojna Złoziemnego Kamienia,Stephen R. Donaldson,Fantasy,Cykl,Kraina - z duplikatem,2,2,FALSE
+"Mroczny, Zachłanny bóg powstaje",Stephen R. Donaldson,SF,Cykl,Skok w potęgę,2,2,FALSE
+W perseuszu,Siergiej Sniegow,SF,Cykl,Ludzie Jak Bogowie,1,6,FALSE
+Jjan,Eric Van Lustbader,Sensacja,,,1,3,FALSE
+Ninja,Eric Van Lustbader,Sensacja,,,1,3,FALSE
+Miecz liktora,Gene Wolfe,SF,,,1,5,FALSE
+Wejść miedzy lwy,Ken Follett,Wojenny,,,1,3,FALSE
+61 godzin,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Ostatnia sprawa,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Nocna Runda,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Zmuś Mnie,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Czas Przeszły,Lee Child,Sensacja,Cykl,Jack Reacher,2,2,FALSE
+Tik-Tak,Dean Koontz,Horror,,,2,2,FALSE
+Ziarno Demona,Dean Koontz,Horror,,,2,2,FALSE
+W okowach lodu,Dean Koontz,Horror,,,2,2,FALSE
+The Door to december,Dean Koontz,Horror,,Angielskie,2,2,FALSE
+Przełęcz śmierci,Dean Koontz,Horror,,,2,2,FALSE
+Klucz do północy,Dean Koontz,Horror,,,2,2,FALSE
+Odd Thomas,Dean Koontz,Horror,,Z duplikatem,2,2,FALSE
+Intensywność,Dean Koontz,Horror,,,2,2,FALSE
+Zęby Tygrysa,Tom Clancy,Sensacja,,,2,4,FALSE
+Kolekcjoner,Tom Clancy,Sensacja,,,2,4,FALSE
+Czerwony Smok,Thomas Harris,Horror,,,2,2,FALSE
+Poniedziałek zaczyna się w sobotę,"Arkadij Natanowicz Strugacki, Borys Strugacki",SF,,Z duplikatem,2,2,FALSE
+Imperatorzy Iluzji,Siergiej Łukianienko,SF,Cykl,Linia Marzeń,2,2,FALSE
+Spektrum [każdy myśliwy pragnie wiedzieć],Siergiej Łukianienko,SF,,,2,2,FALSE
+Nocny Patrol,Siergiej Łukianienko,Urban Fantasy,Cykl,Patrol,2,2,FALSE
+Dzienny Patrol,Siergiej Łukianienko,Urban Fantasy,Cykl,Patrol,2,2,FALSE
+Metro 2034,Dmitry Glukhovsky,SF/Postapo,Cykl,Metro,2,2,FALSE
+Witajcie w rosji,Dmitry Glukhovsky,Zbiór opowiadań,,,2,2,FALSE
+Cytadela w andach,Desmond Bagley,Sensacja,,,1,6,FALSE
+Inne pieśni,Jacek Dukaj,SF,,,2,3,FALSE
+Xavras Wyżryn,Jacek Dukaj,SF,,,2,3,FALSE
+Perfekcyjna niedoskonałość,Jacek Dukaj,SF,,,2,3,FALSE
+Metamorfozy,Witold Jabłoński,Fantasy/Horror,Cykl,Gwiazda Wenus Gwiazda Lucyfer,2,3,FALSE
+Uczeń czarnoksiężnika,Witold Jabłoński,Fantasy/Horror,Cykl,Gwiazda Wenus Gwiazda Lucyfer,2,3,FALSE
+Anna Kańtoch,Diabeł na wieży,Fantasy,,,2,3,FALSE
+Opowieści Okrutnr,Paweł Siedlar,Zbiór opowiadań,,,2,3,FALSE
+Pan Lodowedgo Ogrodu I,Jarosław Grzędowicz,Fantasy,Cykl,Pan Lodowedgo Ogrodu,2,3,FALSE
+Pan Lodowedgo Ogrodu II,Jarosław Grzędowicz,Fantasy,Cykl,Pan Lodowedgo Ogrodu,2,3,FALSE
+Pan Lodowedgo Ogrodu III,Jarosław Grzędowicz,Fantasy,Cykl,Pan Lodowedgo Ogrodu,2,3,FALSE
+Popiół i Kurz,Jarosław Grzędowicz,Zbiór opowiadań,,,2,3,FALSE
+Prorok,Krzysztof Piskorski,Fantasy,Cykl,Opowieść Piasków - z duplikatem,2,3,FALSE
+Najemnik,Krzysztof Piskorski,Fantasy,Cykl,Opowieść Piasków - z duplikatem,2,3,FALSE
+Wygnaniec,Krzysztof Piskorski,Fantasy,Cykl,Opowieść Piasków - z duplikatem,2,3,FALSE
+Kolory Sztandarów,Tomasz Kołodziejczak,SF,Cykl,Dominium Solarne,2,3,FALSE
+Schwytany w światła,Tomasz Kołodziejczak,SF,Cykl,Dominium Solarne,2,3,FALSE
+Głowobójcy,Tomasz Kołodziejczak,Gra książka,Cykl,Dominium Solarne,2,3,FALSE
+Tak Jest Dobrze,Szczepan Twardoch,Zbiór opowiadań,,,2,3,FALSE
+Krzyżacki Poker I,Dariusz Spychalski,Powieść historyczna,Cykl,Krzyżacki Poker,2,3,FALSE
+O włos od piwa,Eugeniusz Dębski,Fantasy,,,2,3,FALSE
+Sherwood,Tomasz Pacyński,Fantasy,,,2,3,FALSE
+Szatański Interes,Tomasz Pacyński,Fantasy,,,2,3,FALSE
+Smokonójca,Tomasz Pacyński,Fantasy,,,2,3,FALSE
+Delirium W Tharsys,Wiktor Żwikiewicz,SF,,,2,5,FALSE
+Bear Island,Alistair MacLean,Sensacja,,angielskie,2,4,FALSE
+Manitou,Graham Masterton,Horror,,,1,6,FALSE
+Kardynał z Kremla,Tom Clancy,Sensacja,,,2,4,FALSE
+Labirynt Odbić,Siergiej Łukianienko,SF,,,2,2,FALSE
+Oblicze Czarnej Palmiry,Władimir Wasiliew,SF,,,2,2,FALSE
+Na wodach Błękitu,Gene Wolfe,SF,Cykl,księga krótkiego słońca,1,5,FALSE
+Meduza,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,4,FALSE
+Cerber,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,4,FALSE
+Charon,Jack L. Chalker,SF,Cykl,Czterech Władców Rombu,1,4,FALSE
+Szatański wirus,Alistair MacLean,Sensacja,,,2,4,FALSE
+Wyspa Niedźwiedzi,Alistair MacLean,Sensacja,,,2,4,FALSE
+Stacja Arktyczna Zebra,Alistair MacLean,Sensacja,,,2,4,FALSE
+Santoryn,Alistair MacLean,Sensacja,,,2,4,FALSE
+Dark Crusader,Alistair MacLean,Sensacja,,,2,4,FALSE
+Rzeka śmierci,Alistair MacLean,Sensacja,,,2,4,FALSE
+San Andreas,Alistair MacLean,Sensacja,,,2,4,FALSE
+H.M.S. Ulisses,Alistair MacLean,Sensacja,,,2,4,FALSE
+Złote Wrota,Alistair MacLean,Sensacja,,,2,4,FALSE
+Na południe od jawy,Alistair MacLean,Sensacja,,,2,4,FALSE
+Śluza,Alistair MacLean,Sensacja,,,2,4,FALSE
+Huragan z navarony,Alistair MacLean,Sensacja,,,2,4,FALSE
+ostatnia granica,Alistair MacLean,Sensacja,,,2,4,FALSE
+Tęcza Sześć I,Tom Clancy,Sensacja,,,2,4,FALSE
+Tęcza Sześć I,Tom Clancy,Sensacja,,,2,4,FALSE
+Bez skrupułów,Tom Clancy,Sensacja,,,2,4,FALSE
+Niedźwiedź i smok I,Tom Clancy,Sensacja,,,2,4,FALSE
+Niedźwiedź i smok II,Tom Clancy,Sensacja,,,2,4,FALSE
+Racja Stanu,Tom Clancy,Sensacja,,,2,4,FALSE
+Centrum,Tom Clancy,Sensacja,,,2,4,FALSE
+Polowanie na Czerwony Październik,Tom Clancy,Sensacja,,,2,4,FALSE
+Dekret I,Tom Clancy,Sensacja,,,2,4,FALSE
+Dekret II,Tom Clancy,Sensacja,,,2,4,FALSE
+Dekret III,Tom Clancy,Sensacja,,,2,4,FALSE
+Zwarcie,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Rubież,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Krew i Honor,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Zakładniczka,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Z rozkazu prezydenta,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Pod Ostrzałem,W.E.B. Griffin,Wojenny,,,2,4,FALSE
+Szpiedzy i żołnierze,W.E.B. Griffin,Wojenny,Cykl,Ostatni Bohaterowie,2,4,FALSE
+Ludzie z mroku,W.E.B. Griffin,Wojenny,Cykl,Ostatni Bohaterowie,2,4,FALSE
+Dwa Fronty,W.E.B. Griffin,Wojenny,Cykl,Ostatni Bohaterowie,2,4,FALSE
+Na dno Nocy,Clive Cussler,Sensacja,,,2,4,FALSE
+Podwodny Zabójca,Clive Cussler,Sensacja,,,2,4,FALSE
+Ostatnia Misja Phoenix,Michael Dimercurio,Sensacja,,,2,4,FALSE
+Głębokość Alarmowa,Michael Dimercurio,Sensacja,,,2,4,FALSE
+Ogień Krzyżowy,David Hagberg,Sensacja,,,2,4,FALSE
+Oblężenie,Steven Coonts,Sensacja,,,2,4,FALSE
+Syberia,Steven Coonts,Sensacja,,,2,4,FALSE
+A-6 Intruder,Steven Coonts,Sensacja,,,2,4,FALSE
+Rekin,"Robert Ballard, Tony Chiu",Sensacja,,,2,4,FALSE
+Więzy Krwi,A.J. Quinnell,Sensacja,,,2,4,FALSE
+Znienacka,Larry Bond,Sensacja,,,2,4,FALSE
+Cobra,Timothy Rizzi,Sensacja,,,2,4,FALSE
+Rosjanin,Andy McNab,Wojenny,,,2,4,FALSE
+Medusa,Sven Hassel,Sensacja,,,2,4,FALSE
+Koła Terroru,Hammond Innes,Sensacja,,,2,4,FALSE
+Władcy Ciemności,Frank E. Peretti,Sensacja,,,2,4,FALSE
+Agent Apokalipsy,Bryan Forbes,Sensacja,,,2,4,FALSE
+Smark Ryzyka,James Jones,Sensacja,,,2,4,FALSE
+Konkwista,Valdemar Baldhead,Sensacja,,,2,4,FALSE
+Akta Odessy,Frederick Forsyth,Sensacja,,,2,4,FALSE
+Nieuchwytny Cel,Robert Tine,Sensacja,,,2,4,FALSE
+Zamach na nowy jork,Mike W. Kerrigan,Sensacja,,,2,4,FALSE
+Maigret i trup młodej kobiety,Georges Simenon,Sensacja,,,2,4,FALSE
+Skok w brunei,Gerard de Villiers,Sensacja,,,1,6,FALSE
+Cosa Nostra,Grażyna Dziedzińska,Sensacja,,,2,4,FALSE
+Safari w la paz,Gerard de Villiers,Sensacja,,,1,6,FALSE
+Najemnicy,Tomasz A. Malik,Sensacja,,,1,6,FALSE
+Operacja Madonna,K.P. Werden,Sensacja,,,1,6,FALSE
+Zbrodnia WIelkiego Człowieka,Adam Hollanek,Sensacja,,,1,6,FALSE
+Powrót Szakala,Jack Oakley,Sensacja,,,2,4,FALSE
+Whirlwind I II,James Clavell,Sensacja,Cykl,Whirlwind,1,5,FALSE
+Whirlwind III IV,James Clavell,Sensacja,Cykl,Whirlwind,1,5,FALSE
+To niesłychane,Serge Jacquemard,Sensacja,,,1,5,FALSE
+Requiem dla króla zbrodni,Serge Jacquemard,Sensacja,,,1,5,FALSE
+Śmierć idzie za nim krok w krok,Serge Jacquemard,Sensacja,,,1,5,FALSE
+Syngrom Segre,Jhon Howlett,Sensacja,,,1,5,FALSE
+Oko Świata I,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Oko Świata II,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Wielkie Polowanie I,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Wielkie Polowanie II,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Róg Valere,Robert Jordan,Fantasy,Cykl,Koło Czasu - z duplikatem,2,3,FALSE
+Smok Odrodzony I,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Smok Odrodzony II,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Triumf Chaosu I,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Triumf Chaosu II,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Czarna Wieża,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Czara Wiatrór,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Korona Mieczy,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Ścieżka Sztyletow,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Dech Zimy,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Rozstaje Zmierzchu,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Wichry Cienia,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Gilotyna Marzeń,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Książe Kruków,Robert Jordan,Fantasy,Cykl,Koło Czasu,2,3,FALSE
+Najeźdźca,C. J. Cherryh,SF,Cykl,Przybysz,2,5,FALSE
+Forteca w źrenicy czasu,C. J. Cherryh,Fantasy,,,2,5,FALSE
+Prekursor,C. J. Cherryh,SF,Cykl,Przybysz,2,5,FALSE
+Kesrith,C. J. Cherryh,SF,Cykl,Gasnące Słońce,2,5,FALSE
+Ludzie z gwiazdy pella,C. J. Cherryh,SF,,,2,5,FALSE
+Gwiazdy moim przeznaczeniem,Alfred Bester,SF,,,2,5,FALSE
+Niebieski krąg,Kazimierz Jordan,SF,,,2,5,FALSE
+Fatalne jaja,Michał Bułhakow,SF,,,2,5,FALSE
+Umrzeć by nie zginąć,Tadeusz Markowski,SF,,,2,5,FALSE
+Księżyc dwudziestu rąk,Lino Aldani,SF,,z duplikatem,2,5,FALSE
+Niewidzialni,G. Le Rouge,SF,,,2,5,FALSE
+Władca szczurów,Rafał Ziemkiewicz,SF,,,2,5,FALSE
+Totem leśnych ludzi,Ryszard Głowacki,SF,,,2,5,FALSE
+Paroksyzm numer minus jeden,Andrzej Trepka,SF,,,2,5,FALSE
+Imaqo,Wiktor Żwikiewicz,SF,,,2,5,FALSE
+Klinika psychiatryczna,Marek Nowak,SF,,,2,5,FALSE
+Gwiezdne szczenię,Jacek Izworski,SF,,,2,5,FALSE
+Gunnar Emmanuel Opowiadanie bez czasu,Sven Delblanc,SF,,,2,5,FALSE
+Uśmiechnięcie skrzydeł,Oleg Korabilenikov,SF,,,2,5,FALSE
+Widma Morskie,Janusz Skarżyński,SF,,,2,5,FALSE
+Wyczerpać morze,Jan Dobraczyński,SF,,,2,5,FALSE
+Ósmy krąg piekieł,Krzysztof Boruń,SF,,,2,5,FALSE
+Spotkanie w przestworzach 4 - antologie młodych 80,Various Artists,SF,Zbiór opowiadań,,2,5,FALSE
+Czas Szpiegów,Henryk Pieciuch,Sensacja,,,2,4,FALSE
+Z notatnika oficera MO,Ryszard Kaczorowski,Sensacja,,,2,4,FALSE
+Zaklęcie dla cameleon,Piers Anthony,Fantasy,,,2,5,FALSE
+Nieśmiertelny z oxa,Mirosłow Piotr Jabłoński,SF,,,2,5,FALSE
+Mutanci,Tadeusz Markowski,SF,,,2,5,FALSE
+Diabelska Maskarada,Marek Hemerling,SF,,,2,5,FALSE
+Ucieczka Logana,"William F. Nolan, George Clayton Johnson",SF,,,2,5,FALSE
+Wojenne Gry,Brian Stableford,SF,,,2,5,FALSE
+Balde Runner II,K. W. Jeter,SF,,,2,5,FALSE
+Listonosz,David Brin,SF,,,2,5,FALSE
+Drugi Okręt,Richard Philips,SF,,,2,5,FALSE
+Nieulękły,Jack Campbell,SF,Cykl,Zaginiona Flota,2,5,FALSE
+Nieustraszony,Jack Campbell,SF,Cykl,Zaginiona Flota,2,5,FALSE
+Odważny,Jack Campbell,SF,Cykl,Zaginiona Flota,2,5,FALSE
+Zadziwiający ludzie,Charles Harness,SF,,,2,5,FALSE
+Ostateczna Wojna,Barry Malzberg,SF,,,2,5,FALSE
+Więcej niż nieskończoność,Michael McCollum,SF,,,2,5,FALSE
+Ostatni Brzeg,Navil Shute,SF,,,2,5,FALSE
+Ulotny Smak Istnienia,James Tiptre,SF,,,2,5,FALSE
+Utracona Fortuna,Brian Daley,SF,Cykl,Star Wars: Han Solo,2,5,FALSE
+Na krańcu Gwiazdy,Brian Daley,SF,Cykl,Star Wars: Han Solo,2,5,FALSE
+Mózg,Frederic Brown,SF,,,2,5,FALSE
+Tłumacz,Brian Aldiss,SF,,,2,5,FALSE
+Druga Planeta Słońca OGG,Peter Lengyel,SF,,,2,5,FALSE
+Klucz do Zapory,Theodore Strugeon,SF,,,2,5,FALSE
+UFO z planety Akart,Artur Berlet,SF,,,2,5,FALSE
+Don Wollheim Proponuje: 1985,Various Artists,SF,Zbiór Opowiadań,,2,5,FALSE
+Władca Mórz,Siergiej Sinlakin,SF,,,2,5,FALSE
+Utwory wybrane 2,Kirył Bułczow,SF,Zbiór Opowiadań,z duplikatem,2,5,FALSE
+Utwory wybrane 3,Kirył Bułczow,SF,Zbiór Opowiadań,,2,5,FALSE
+Rok 1984 antologia współczesnej SF,Various Artists,SF,Zbiór Opowiadań,,2,5,FALSE
+Kronika Akaszy,Jacek Sawaszkiewicz,SF,,"Dwie powieści w jednej książce - Inicjacja, Skorupa Astralna",2,5,FALSE
+Senni Zwycięzcy,Marek Oramus,SF,,,2,5,FALSE
+Ludzie Ery Atomowej,Roman Gajda,SF,,,2,5,FALSE
+Na Tle kosmicznej Otchłaniu,Jacek Sawaszkiewicz,SF,,,2,5,FALSE
+Śmierć Magów z Yara,Eugeniusz Dębski,SF,,,2,5,FALSE
+Ostateczni,Henryk Wiatrowski,SF,,,2,5,FALSE
+Upadłe Anioły,Richard Morgan,SF,,,2,5,FALSE
+Allan i bogowie lodów,H. Rider Haggard,Fantasy,,,2,5,FALSE
+Z wody Zrodzony,J. Gregory Keyes,Fantasy,,,2,5,FALSE
+Berserker Cień Wilka,Chris Carlsen,Fantasy,,,2,5,FALSE
+Tarcza Szerni,Feliks W. Kres,Fantasy,Cykl,księga całości,2,5,FALSE
+Czarnoksiężnik z Volkyan,Tanith Lee,Fantasy,,,2,5,FALSE
+Zaklęty Miecz,Poul Anderson,Fantasy,,,2,5,FALSE
+Eryk Promiennooki,H. Rider Haggard,Fantasy,,,2,5,FALSE
+Pozłacany łańcuch,Dave Duncan,Fantasy,Cykl,Królewscy fechmistrzowie,2,5,FALSE
+"Zbrodnia w zamku, Tajmenica Królowej",Maurice Leblanc,Sensacja,Cykl,Arsen Lupin - dwie powieści w jednej książce,1,3,FALSE
+Rózgi Liktorskie,Krzysztof Kulicz,Sensacja,,,1,3,FALSE
+Kokino Kłamie,Adam Wysocki,Sensacja,,,1,3,FALSE
+Kochać bez skóry,Adam Hollanek,SF,,,2,5,FALSE
+Tortilla Flat,John Steinback,Literatura Piękna,,,2,6,FALSE
+Człowiek Maszyna,La Mettrie,Literatura Piękna,,,2,6,FALSE
+Sposób Bycia Bardzo Starzy Oboje,Kazimierz Brandys,Literatura Piękna,,,2,6,FALSE
+Mewy,Stanisław Goszczurny,Literatura Piękna,,,2,6,FALSE
+Party u kierdzioka,Jerzy Olierski,Literatura Piękna,,,2,6,FALSE
+Zaufajcie Drakuli,George Quiryn,Literatura Piękna,,,2,6,FALSE
+Pożegnanie z afryką,Karen Blixen,Literatura Piękna,,,2,6,FALSE
+Aksamitne Pazurki,E.S. Gardner,Literatura Piękna,,,2,6,FALSE
+Medaliony,Zofia Nałkowska,Literatura Piękna,,,2,6,FALSE
+Kapitulacja,Zbigniew Bela,Literatura Piękna,,,2,6,FALSE
+Eminencje i bałłabancje,Edmund Niziurski,Literatura Piękna,,,2,6,FALSE
+Grek Zorba,Nikos Kazantzakis,Literatura Piękna,,,2,6,FALSE
+Człowiek Poznaje Świat Ziemia Drży,R. Hewitt,Literatura Piękna,,,2,6,FALSE
+Chwila na wietrze,Andre Brink,Literatura Piękna,,,2,6,FALSE
+Frankenstein,Mary Wollstonecraft Shelley,Literatura Piękna,,,2,6,FALSE
+Wrastanie,Eugeniusz Paukszta,Literatura Piękna,,,2,6,FALSE
+Między kłamstwem a ironią,Umberto Eco,Literatura Piękna,,,2,6,FALSE
+Moralność mieszczańska,Maria Ossowska,Literatura Piękna,,,2,6,FALSE
+Obłęd Tom 3,Jerzy Krzyszfoń,Literatura Piękna,,,2,6,FALSE
+Ostatnie cztery Minuty,Jacek Natanson,Literatura Piękna,,,2,6,FALSE
+Najdziksze Serca,J.O. Curkwood,Literatura Piękna,,,2,6,FALSE
+Chłopcy z placu broni,Ferenc Molnar,Literatura Piękna,,,2,6,FALSE
+Na marginesie Życia,Stanisław Grzesiuk,Literatura Piękna,,,2,6,FALSE
+Hipnoza,Hanna Krall,Literatura Piękna,,,2,6,FALSE
+Założyciel,Melida Pinon,Literatura Piękna,,,2,6,FALSE
+Sceny z niemego kina,Julio Llamazares,Literatura Piękna,,,2,6,FALSE
+Immoralista,Andre Gide,Literatura Piękna,,,2,6,FALSE
+Ameryka,Franz Kafka,Literatura Piękna,,,2,6,FALSE
+Bez Piór,Woody Allen,Literatura Piękna,,Zbiór opowiadań,2,6,FALSE
+Skaza,Magdalena Tulli,Literatura Piękna,,,2,6,FALSE
+Rosyjska Apokalipsa,Wiktor Jerofiejew,Literatura Piękna,,,2,6,FALSE
+Zbyt Głośna Samotność,Bohumil Hrabal,Literatura Piękna,,,2,6,FALSE
+Mur,Jean Paul Sartre,Literatura Piękna,,,2,6,FALSE
+Potop I,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Potop II,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Ogniem I mieczem I,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Ogniem I mieczem II,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Potop I,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Potop II,Henryk Sienkiewicz,Literatura Piękna,,,2,6,FALSE
+Nic świętego,Elizabeth Ann Scarborough,Fantastyka,Cykl,Światło Tybetu,2,5,FALSE
+Ostatnie schronienie,Elizabeth Ann Scarborough,Fantastyka,Cykl,Światło Tybetu,2,5,FALSE
+Rycerze na rozdrożach,Kirył Bułczow,SF,,,2,5,FALSE
+Widmo,Robert Faulcon,Horror,Cykl,Nocny łowca,1,7,FALSE
