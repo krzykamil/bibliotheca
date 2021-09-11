@@ -5313,7 +5313,7 @@ var $author$project$Main$update = F2(
 						{editing: isEditing}) : t;
 				};
 				var focus = $elm$browser$Browser$Dom$focus(
-					'todo-' + $elm$core$String$fromInt(id));
+					'book-' + $elm$core$String$fromInt(id));
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
@@ -5463,7 +5463,7 @@ var $author$project$Main$infoFooter = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Written by'),
+					$elm$html$Html$text('Written by '),
 					A2(
 					$elm$html$Html$a,
 					_List_fromArray(
@@ -5644,7 +5644,7 @@ var $elm$html$Html$Events$onInput = function (tagger) {
 			A2($elm$json$Json$Decode$map, tagger, $elm$html$Html$Events$targetValue)));
 };
 var $elm$html$Html$Attributes$value = $elm$html$Html$Attributes$stringProperty('value');
-var $author$project$Main$viewBook = function (todo) {
+var $author$project$Main$viewBook = function (book) {
 	return A2(
 		$elm$html$Html$li,
 		_List_fromArray(
@@ -5652,8 +5652,8 @@ var $author$project$Main$viewBook = function (todo) {
 				$elm$html$Html$Attributes$classList(
 				_List_fromArray(
 					[
-						_Utils_Tuple2('completed', todo.completed),
-						_Utils_Tuple2('editing', todo.editing)
+						_Utils_Tuple2('completed', book.completed),
+						_Utils_Tuple2('editing', book.editing)
 					]))
 			]),
 		_List_fromArray(
@@ -5672,9 +5672,9 @@ var $author$project$Main$viewBook = function (todo) {
 							[
 								$elm$html$Html$Attributes$class('toggle'),
 								$elm$html$Html$Attributes$type_('checkbox'),
-								$elm$html$Html$Attributes$checked(todo.completed),
+								$elm$html$Html$Attributes$checked(book.completed),
 								$elm$html$Html$Events$onClick(
-								A2($author$project$Main$Check, todo.id, !todo.completed))
+								A2($author$project$Main$Check, book.id, !book.completed))
 							]),
 						_List_Nil),
 						A2(
@@ -5682,11 +5682,11 @@ var $author$project$Main$viewBook = function (todo) {
 						_List_fromArray(
 							[
 								$elm$html$Html$Events$onDoubleClick(
-								A2($author$project$Main$EditingBook, todo.id, true))
+								A2($author$project$Main$EditingBook, book.id, true))
 							]),
 						_List_fromArray(
 							[
-								$elm$html$Html$text(todo.description)
+								$elm$html$Html$text(book.description)
 							])),
 						A2(
 						$elm$html$Html$button,
@@ -5694,7 +5694,7 @@ var $author$project$Main$viewBook = function (todo) {
 							[
 								$elm$html$Html$Attributes$class('destroy'),
 								$elm$html$Html$Events$onClick(
-								$author$project$Main$Delete(todo.id))
+								$author$project$Main$Delete(book.id))
 							]),
 						_List_Nil)
 					])),
@@ -5703,33 +5703,33 @@ var $author$project$Main$viewBook = function (todo) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$class('edit'),
-						$elm$html$Html$Attributes$value(todo.description),
+						$elm$html$Html$Attributes$value(book.description),
 						$elm$html$Html$Attributes$name('title'),
 						$elm$html$Html$Attributes$id(
-						'todo-' + $elm$core$String$fromInt(todo.id)),
+						'book-' + $elm$core$String$fromInt(book.id)),
 						$elm$html$Html$Events$onInput(
-						$author$project$Main$UpdateBook(todo.id)),
+						$author$project$Main$UpdateBook(book.id)),
 						$elm$html$Html$Events$onBlur(
-						A2($author$project$Main$EditingBook, todo.id, false)),
+						A2($author$project$Main$EditingBook, book.id, false)),
 						$author$project$Main$onEnter(
-						A2($author$project$Main$EditingBook, todo.id, false))
+						A2($author$project$Main$EditingBook, book.id, false))
 					]),
 				_List_Nil)
 			]));
 };
-var $author$project$Main$viewKeyedBook = function (todo) {
+var $author$project$Main$viewKeyedBook = function (book) {
 	return _Utils_Tuple2(
-		$elm$core$String$fromInt(todo.id),
-		A2($elm$html$Html$Lazy$lazy, $author$project$Main$viewBook, todo));
+		$elm$core$String$fromInt(book.id),
+		A2($elm$html$Html$Lazy$lazy, $author$project$Main$viewBook, book));
 };
 var $author$project$Main$viewBooks = F2(
 	function (visibility, books) {
-		var isVisible = function (todo) {
+		var isVisible = function (book) {
 			switch (visibility) {
 				case 'Completed':
-					return todo.completed;
+					return book.completed;
 				case 'Active':
-					return !todo.completed;
+					return !book.completed;
 				default:
 					return true;
 			}
@@ -5776,7 +5776,7 @@ var $author$project$Main$viewBooks = F2(
 					$elm$html$Html$Keyed$ul,
 					_List_fromArray(
 						[
-							$elm$html$Html$Attributes$class('todo-list')
+							$elm$html$Html$Attributes$class('book-list')
 						]),
 					A2(
 						$elm$core$List$map,
@@ -5809,7 +5809,7 @@ var $author$project$Main$viewControlsCount = function (booksLeft) {
 		$elm$html$Html$span,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('todo-count')
+				$elm$html$Html$Attributes$class('books-count')
 			]),
 		_List_fromArray(
 			[
@@ -5921,17 +5921,17 @@ var $author$project$Main$viewInput = function (task) {
 				_List_Nil,
 				_List_fromArray(
 					[
-						$elm$html$Html$text('todos')
+						$elm$html$Html$text('Bibliotheca - Books')
 					])),
 				A2(
 				$elm$html$Html$input,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$class('new-todo'),
-						$elm$html$Html$Attributes$placeholder('What needs to be done?'),
+						$elm$html$Html$Attributes$class('search'),
+						$elm$html$Html$Attributes$placeholder('Type to search by any attribute or author'),
 						$elm$html$Html$Attributes$autofocus(true),
 						$elm$html$Html$Attributes$value(task),
-						$elm$html$Html$Attributes$name('newTodo'),
+						$elm$html$Html$Attributes$name('search'),
 						$elm$html$Html$Events$onInput($author$project$Main$UpdateField),
 						$author$project$Main$onEnter($author$project$Main$Add)
 					]),
@@ -5943,7 +5943,7 @@ var $author$project$Main$view = function (model) {
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('todomvc-wrapper'),
+				$elm$html$Html$Attributes$class('books-wrapper'),
 				A2($elm$html$Html$Attributes$style, 'visibility', 'hidden')
 			]),
 		_List_fromArray(
@@ -5952,7 +5952,7 @@ var $author$project$Main$view = function (model) {
 				$elm$html$Html$section,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$class('todoapp')
+						$elm$html$Html$Attributes$class('bibliotheca-app')
 					]),
 				_List_fromArray(
 					[

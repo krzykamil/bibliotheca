@@ -1,12 +1,10 @@
 port module Main exposing (..)
 
-{-| TodoMVC implemented in Elm, using plain HTML and CSS for rendering.
+{-| Book searching implemented in Elm, using plain HTML and CSS for rendering.
 This application is broken up into three key parts:
   1. Model  - a full definition of the application's state
   2. Update - a way to step the application state forward
   3. View   - a way to visualize our application state with HTML
-This clean division of concerns is a core part of Elm. You can read more about
-this in <http://guide.elm-lang.org/architecture/index.html>
 -}
 
 import Browser
@@ -135,7 +133,7 @@ update msg model =
                         t
 
                 focus =
-                    Dom.focus ("todo-" ++ String.fromInt id)
+                    Dom.focus ("book-" ++ String.fromInt id)
             in
             ( { model | books = List.map updateBook model.books }
             , Task.attempt (\_ -> NoOp) focus
@@ -194,11 +192,11 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div
-        [ class "todomvc-wrapper"
+        [ class "books-wrapper"
         , style "visibility" "hidden"
         ]
         [ section
-            [ class "todoapp" ]
+            [ class "bibliotheca-app" ]
             [ lazy viewInput model.field
             , lazy2 viewBooks model.visibility model.books
             , lazy2 viewControls model.visibility model.books
@@ -211,13 +209,13 @@ viewInput : String -> Html Msg
 viewInput task =
     header
         [ class "header" ]
-        [ h1 [] [ text "todos" ]
+        [ h1 [] [ text "Bibliotheca - Books" ]
         , input
-            [ class "new-todo"
-            , placeholder "What needs to be done?"
+            [ class "search"
+            , placeholder "Type to search by any attribute or author"
             , autofocus True
             , value task
-            , name "newTodo"
+            , name "search"
             , onInput UpdateField
             , onEnter Add
             ]
@@ -241,13 +239,13 @@ onEnter msg =
 viewBooks : String -> List Book -> Html Msg
 viewBooks visibility books =
     let
-        isVisible todo =
+        isVisible book =
             case visibility of
                 "Completed" ->
-                    todo.completed
+                    book.completed
 
                 "Active" ->
-                    not todo.completed
+                    not book.completed
 
                 _ ->
                     True
@@ -276,46 +274,46 @@ viewBooks visibility books =
             , label
                 [ for "toggle-all" ]
                 [ text "Mark all as complete" ]
-            , Keyed.ul [ class "todo-list" ] <|
+            , Keyed.ul [ class "book-list" ] <|
                 List.map viewKeyedBook (List.filter isVisible books)
             ]
 
 -- VIEW INDIVIDUAL Books
 
 viewKeyedBook : Book -> ( String, Html Msg )
-viewKeyedBook todo =
-    ( String.fromInt todo.id, lazy viewBook todo )
+viewKeyedBook book =
+    ( String.fromInt book.id, lazy viewBook book )
 
 viewBook : Book -> Html Msg
-viewBook todo =
+viewBook book =
     li
-        [ classList [ ( "completed", todo.completed ), ( "editing", todo.editing ) ] ]
+        [ classList [ ( "completed", book.completed ), ( "editing", book.editing ) ] ]
         [ div
             [ class "view" ]
             [ input
                 [ class "toggle"
                 , type_ "checkbox"
-                , checked todo.completed
-                , onClick (Check todo.id (not todo.completed))
+                , checked book.completed
+                , onClick (Check book.id (not book.completed))
                 ]
                 []
             , label
-                [ onDoubleClick (EditingBook todo.id True) ]
-                [ text todo.description ]
+                [ onDoubleClick (EditingBook book.id True) ]
+                [ text book.description ]
             , button
                 [ class "destroy"
-                , onClick (Delete todo.id)
+                , onClick (Delete book.id)
                 ]
                 []
             ]
         , input
             [ class "edit"
-            , value todo.description
+            , value book.description
             , name "title"
-            , id ("todo-" ++ String.fromInt todo.id)
-            , onInput (UpdateBook todo.id)
-            , onBlur (EditingBook todo.id False)
-            , onEnter (EditingBook todo.id False)
+            , id ("book-" ++ String.fromInt book.id)
+            , onInput (UpdateBook book.id)
+            , onBlur (EditingBook book.id False)
+            , onEnter (EditingBook book.id False)
             ]
             []
         ]
@@ -351,7 +349,7 @@ viewControlsCount booksLeft =
                 " items"
     in
         span
-            [ class "todo-count" ]
+            [ class "books-count" ]
             [ strong [] [ text (String.fromInt booksLeft) ]
             , text (item_ ++ " left")
             ]
@@ -394,7 +392,7 @@ infoFooter =
     footer [ class "info" ]
         [ p [] [ text "Search engine for my library" ]
         , p []
-            [ text "Written by"
+            [ text "Written by "
             , a [ href "https://github.com/krzykamil" ] [ text "Krzyszof Piotrowski" ]
             ]
         ]

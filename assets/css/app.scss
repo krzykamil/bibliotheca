@@ -33,7 +33,7 @@ body {
   font-smoothing: antialiased;
   font-weight: 300;
 }
-.todomvc-wrapper {
+.books-wrapper {
   visibility: visible !important;
 }
 button {
@@ -59,7 +59,7 @@ input[type="checkbox"] {
 .hidden {
   display: none;
 }
-.todoapp {
+.bibliotheca-app {
   background: #fff;
   margin: 130px 0 40px 0;
   position: relative;
@@ -85,7 +85,7 @@ input[type="checkbox"] {
     position: absolute;
     top: -155px;
     width: 100%;
-    font-size: 100px;
+    font-size: 60px;
     font-weight: 100;
     text-align: center;
     color: rgba(175, 47, 47, 0.15);
@@ -94,7 +94,7 @@ input[type="checkbox"] {
     text-rendering: optimizeLegibility;
   }
 }
-.new-todo {
+.search {
   position: relative;
   margin: 0;
   width: 100%;
@@ -164,7 +164,7 @@ label[for='toggle-all'] {
     }
   }
 }
-.todo-list {
+.books-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -273,7 +273,7 @@ label[for='toggle-all'] {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
   }
 }
-.todo-count {
+.books-count {
   float: left;
   text-align: left;
   strong {
@@ -343,7 +343,7 @@ label[for='toggle-all'] {
     -webkit-appearance: none;
     appearance: none;
   }
-  .todo-list {
+  .books-list {
     li {
       .toggle {
         background: none;
