@@ -1,8 +1,6 @@
 require 'forme'
 class Bibliotheca
   hash_routes.on 'books' do |r|
-
-    set_view_subdir 'books'
     r.is do
       r.get do
         #TODO add filters for attributes
@@ -12,7 +10,6 @@ class Bibliotheca
         # @genres = @books.map(&:genre).uniq.compact
         # @genres_size = @genres.count
         @fakebooks = [OpenStruct.new(description: "test", completed: true, editing: false, id: "1")]
-        render("index")
       end
     end
   end

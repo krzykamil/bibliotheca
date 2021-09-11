@@ -17,16 +17,6 @@ class Bibliotheca < Roda
          'X-Content-Type-Options' => 'nosniff',
          'X-XSS-Protection' => '1; mode=block'
 
-  # plugin :content_security_policy do |csp|
-  #   csp.default_src :none
-  #   csp.style_src :self, 'https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'
-  #   csp.form_action :self
-  #   csp.script_src :self
-  #   csp.connect_src :self
-  #   csp.base_uri :none
-  #   csp.frame_ancestors :none
-  # end
-
   plugin :route_csrf
   plugin :flash
   plugin :assets, css: 'app.scss', css_opts: { style: :compressed, cache: false }, timestamp_paths: true, js: 'MainElm.js'
@@ -76,14 +66,11 @@ class Bibliotheca < Roda
 
   Unreloader.require('routes') {}
 
-  hash_routes do
-    view '', 'index'
-  end
-
   route do |r|
     r.public
     r.assets
     check_csrf!
     r.hash_routes('')
+    render("index")
   end
 end
