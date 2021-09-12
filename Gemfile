@@ -1,13 +1,15 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'sassc', '>= 2'
-gem 'tilt', '>= 2.0.9'
 gem 'erubi', '>= 1.5'
-gem 'roda', '>= 3.19'
+gem 'rack-unreloader'
 gem 'refrigerator', '>= 1'
+gem 'roda', '>= 3.19'
+gem 'sassc', '>= 2'
 gem 'sequel', '>= 5'
 gem 'sequel_pg', '>= 1.8'
-gem 'rack-unreloader'
+gem 'tilt', '>= 2.0.9'
 gem 'webrick'
 
 group :development do
@@ -16,9 +18,8 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
   gem 'minitest', '>= 5.7.0'
+  gem 'minitest-global_expectations'
   gem 'minitest-hooks', '>= 1.1.0'
-  gem "minitest-global_expectations"
-  gem "warning"
+  gem 'warning'
 end
