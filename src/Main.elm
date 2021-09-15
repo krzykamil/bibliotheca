@@ -10,12 +10,14 @@ This application is broken up into three key parts:
 import Browser
 import Browser.Dom as Dom
 import Html exposing (..)
+import Html exposing (text, pre)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Html.Keyed as Keyed
 import Html.Lazy exposing (lazy, lazy2)
 import Json.Decode as Json
 import Task
+import Http
 
 
 main : Program (Maybe Model) Model Msg
@@ -23,23 +25,23 @@ main =
     Browser.document
         { init = init
         , view = \model -> { title = "Bibliotheca • Books", body = [view model] }
-        , update = updateWithStorage
+        , update = updateWithApi
         , subscriptions = \_ -> Sub.none
         }
 
-port setStorage : Model -> Cmd msg
+port getFromApi : Model -> Cmd msg
 
-{-| We want to `setStorage` on every update. This function adds the setStorage
+{-| We want to `getFromApi` on every update. This function adds the getFromApi
 command for every step of the update function.
 -}
-updateWithStorage : Msg -> Model -> ( Model, Cmd Msg )
-updateWithStorage msg model =
+updateWithApi : Msg -> Model -> ( Model, Cmd Msg )
+updateWithApi msg model =
     let
         ( newModel, cmds ) =
             update msg model
     in
         ( newModel
-        , Cmd.batch [ setStorage newModel, cmds ]
+        , Cmd.batch [ getFromApi newModel, cmds ]
         )
 
 -- MODEL
@@ -75,11 +77,20 @@ newBook desc id =
     , id = id
     }
 
-init : Maybe Model -> ( Model, Cmd Msg )
+init : Maybe Model -> (Model, Cmd Msg)
 init maybeModel =
-  ( Maybe.withDefault emptyModel maybeModel
-  , Cmd.none
+  ( Loading
+  , Http.get
+      { url = "https://elm-lang.org/assets/public-opinion.txt"
+      , expect = Http.expectString GotText
+      }
   )
+
+--init : Maybe Model -> ( Model, Cmd Msg )
+--init maybeModel =
+--  ( Maybe.withDefault emptyModel maybeModel
+--  , Cmd.none
+--  )
 
 -- UPDATE
 
@@ -98,6 +109,8 @@ type Msg
     | Check Int Bool
     | CheckAll Bool
     | ChangeVisibility String
+    | Loading String
+    | GotText (Result Http.Error String)
 
 -- How we update our Model on a given Msg?
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -191,18 +204,23 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div
-        [ class "books-wrapper"
-        , style "visibility" "hidden"
-        ]
-        [ section
-            [ class "bibliotheca-app" ]
-            [ lazy viewInput model.field
-            , lazy2 viewBooks model.visibility model.books
-            , lazy2 viewControls model.visibility model.books
-            ]
-        , infoFooter
-        ]
+    case model of
+        Loading ->
+            text "Loading..."
+
+        else
+            div
+                [ class "books-wrapper"
+                , style "visibility" "hidden"
+                ]
+                [ section
+                    [ class "bibliotheca-app" ]
+                    [ lazy viewInput model.field
+                    , lazy2 viewBooks model.visibility model.books
+                    , lazy2 viewControls model.visibility model.books
+                    ]
+                , infoFooter
+                ]
 
 
 viewInput : String -> Html Msg
