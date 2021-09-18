@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require_relative 'models'
-require_relative 'env'
-
+# require_relative 'env'
+require 'sequel'
 require 'roda'
 # require 'tilt/sass'
 require 'ruby_jard'
@@ -74,4 +74,7 @@ class Bibliotheca < Roda
     r.hash_routes('')
     render("index")
   end
+
+  Sequel::Model.plugin :json_serializer
+
 end
