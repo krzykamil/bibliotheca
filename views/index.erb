@@ -7,16 +7,18 @@
   <%== assets(:css) %>
   <%== assets(:js) %>
   <title>Bibliotheca<% if @page_title %> - <%= @page_title %><% end %></title>
+
 </head>
 
+
 <body>
-<div id="elm-node"></div>
+  <div id="elm-node"></div>
 </body>
 
 <script type="text/javascript">
   const app = Elm.Main.init({ flags: null,
     node: document.getElementById("elm-node")
   });
-</script>
 
+</script>
 </html>
