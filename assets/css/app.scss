@@ -1,27 +1,21 @@
 .navbar-brand {
   color: green;
 }
-// Set your brand colors
-//$purple: #8A4D76;
-//$pink: #FA7C91;
-//$brown: #757763;
-//$beige-light: #D0D1CD;
-//$beige-lighter: #EFF0EB;
-//
-//// Update Bulma's global variables
-//$grey-dark: $brown;
-//$grey-light: $beige-light;
-//$primary: $purple;
-//$link: $pink;
-//
-//// Update some of Bulma's component variables
-//$control-border-width: 2px;
-//$input-background-color: $beige-lighter;
-//$input-border-color: transparent;
-//$input-shadow: none;
-//
-//$table-row-hover-background-color: $purple;
-//$primary-invert: red;
-//
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
-//
+//@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+/*
+    Hack to remove background from Mobile Safari.
+    Can't use it globally since it destroys checkboxes in Firefox
+*/
+html {
+  padding: 10px;
+}
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #EFEFEF;
+  color: #324047;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
