@@ -9,6 +9,7 @@ import Element exposing (..)
 import Element.Background as Background
 import Element.Border as Border
 import Element.Font as Font
+import Element.Events as Events
 import Html exposing (Html)
 import Html.Attributes
 
@@ -66,7 +67,6 @@ update msg model =
         Err e ->
             Debug.log( String.concat([ "Stuff", Debug.toString(e), " wahterver messages" ]) )
           ( Failure, Cmd.none )
-
 -- SUBSCRIPTIONS
 
 subscriptions : Model -> Sub Msg
@@ -101,47 +101,53 @@ booksTable books =
                       , width = Element.shrink
                       , view =
                             \book ->
-                                el ((width (fill |> maximum 345 |> minimum 345)) :: cellAttrs) <| Element.text book.name
+                                el (cellAttrs 345 345) <| Element.text book.name
                       }
                     , { header = el (((width (fill |> maximum 170 |> minimum 170)) :: headerAttrs)) <|  ( Element.text "Genre" )
                       , width = Element.shrink
                       , view =
                             \book ->
-                                el ((width (fill |> maximum 170 |> minimum 170)) :: cellAttrs) <| Element.text book.genre
+                                el (cellAttrs 170 170) <| Element.text book.genre
                       }
                       , { header = el (((width (fill |> maximum 170 |> minimum 170)) :: headerAttrs)) <|  ( Element.text "Subcategory" )
                         , width = Element.shrink
                         , view =
                               \book ->
-                                  el ((width (fill |> maximum 170 |> minimum 170)) :: cellAttrs) <| Element.text (Maybe.withDefault "" book.subcategory)
+                                  el (cellAttrs 170 170) <| Element.text (Maybe.withDefault "" book.subcategory)
                         }
                       , { header = el (((width (fill |> maximum 340 |> minimum 340)) :: headerAttrs)) <|  ( Element.text "Note" )
                         , width = Element.shrink
                         , view =
                               \book ->
-                                  el ((width (fill |> maximum 340 |> minimum 340)) :: cellAttrs) <| Element.text (Maybe.withDefault "" book.note)
+                                  el (cellAttrs 340 340) <| Element.text (Maybe.withDefault "" book.note)
                         }
                       , { header = el (((width (fill |> maximum 90 |> minimum 90)) :: headerAttrs)) <|  ( Element.text "Shelf" )
                         , width = Element.shrink
                         , view =
                               \book ->
-                                  el ((width (fill |> maximum 90 |> minimum 90)) :: cellAttrs) <| Element.text (String.fromInt book.rack)
+                                  el (cellAttrs 90 90) <| Element.text (String.fromInt book.rack)
                         }
                       , { header = el (((width (fill |> maximum 90 |> minimum 90)) :: headerAttrs)) <|  ( Element.text "Rack" )
                         , width = Element.shrink
                         , view =
                               \book ->
-                                  el ((width (fill |> maximum 90 |> minimum 90)) :: cellAttrs) <| Element.text (String.fromInt book.shelf)
+                                  el (cellAttrs 90 90) <| Element.text (String.fromInt book.shelf)
                         }
                       ]
                       }]
         ]
 
-cellAttrs =
+cellAttrs : Int -> Int -> List(Attr () msg)
+cellAttrs max min =
     [ Font.color colors.darkCharcoal
     , padding 10
     , height fill
+    , width (fill |> maximum max |> minimum min)
+    , clipX
+    , mouseOver [ Background.color (rgb 0 1 0) ]
     ]
+
+sayHi = Debug.log( "hi" )
 
 headerAttrs =
     [ centerX
